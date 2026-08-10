@@ -6,8 +6,9 @@
 An **auto-updating calendar feed** of upcoming **paper submission deadlines** across 8 computer-science
 fields, ready to subscribe in Apple / Google / Outlook Calendar. Refreshed every 12 hours by GitHub Actions.
 
-> Only *submission deadlines* are kept (venue/held events are filtered out), merged across fields and
-> de-duplicated, so your calendar stays clean.
+> **Upcoming deadlines only**, merged across fields and de-duplicated. Each event is tagged with its
+> **CCF rank** (`[CCF-A/B/C]`) and carries **D-7 / D-1 reminders**. Non-CCF venues (e.g. CPP) are added
+> by hand. If the upstream is down, the job aborts without overwriting — your last good calendar is kept.
 
 ## 🔔 Subscribe
 
@@ -37,8 +38,11 @@ titles, and writes `paper-deadlines.ics`. **Non-CCF venues** that ccfddl doesn't
 Certified Programs and Proofs**) are added by hand in the `MANUAL_EVENTS` list. A scheduled GitHub Action
 (`.github/workflows/update.yml`) regenerates and commits it every 12 h.
 
-**Customize:** edit `SUBFIELDS` (ccfddl codes) or add a venue to `MANUAL_EVENTS` (name + `YYYYMMDD` date +
-url from the official CFP) in `merge_deadlines.py`.
+**Customize** (`merge_deadlines.py`):
+- `SUBFIELDS` — ccfddl subfield codes to include.
+- `VENUE_ALLOWLIST` — set to e.g. `["FSE","SANER","ICSE","POPL","CAV","CPP"]` to keep *only* those venues.
+- `MANUAL_EVENTS` — add non-CCF venues: `{name, "YYYYMMDD", url}` (dates from the official CFP).
+- `ALARM_DAYS` — reminder offsets (default `[7, 1]`).
 
 ## 🙏 Data source & credits
 

@@ -24,25 +24,28 @@ https://raw.githubusercontent.com/espressolee/paper-deadlines/main/paper-deadlin
 
 ## 📚 Fields covered
 
-Security · Databases · Computer Systems · Graphics & Vision · Networks · Artificial Intelligence ·
-Software Engineering · Mathematics & Statistics
+Software Engineering / PL / Systems · Theory & Formal Methods · Security · Databases · Networks ·
+Artificial Intelligence · Graphics & Vision
+(ccfddl subfields `SE CT SC DB NW AI CG` — SE bundles SWE, programming languages and systems:
+FSE, SANER, ICSE, ASE, ISSTA, POPL, OOPSLA, PLDI, ICFP; CT covers CAV, LICS, …)
 
 ## ⚙️ How it works
 
-`merge_deadlines.py` fetches the per-field iCal feeds from **[labmate.cloud](https://labmate.cloud/ko/conferences)**
-(codes `SC DB DS CG NW AI SE MATH`), keeps only submission-deadline events, merges + de-dupes by UID, and
-writes `paper-deadlines.ics`. A scheduled GitHub Action (`.github/workflows/update.yml`) regenerates and
-commits it every 12 h.
+`merge_deadlines.py` fetches the per-subfield iCal feeds from **[ccfddl](https://ccfddl.com)** (the
+authoritative CCF-deadlines project), keeps **upcoming** deadlines only, merges + de-dupes by UID, cleans
+titles, and writes `paper-deadlines.ics`. **Non-CCF venues** that ccfddl doesn't track (e.g. **CPP —
+Certified Programs and Proofs**) are added by hand in the `MANUAL_EVENTS` list. A scheduled GitHub Action
+(`.github/workflows/update.yml`) regenerates and commits it every 12 h.
 
-**Customize:** edit the `CODES` list in `merge_deadlines.py` (get a field's code by filtering on the
-labmate page and clicking *Copy calendar feed URL*).
+**Customize:** edit `SUBFIELDS` (ccfddl codes) or add a venue to `MANUAL_EVENTS` (name + `YYYYMMDD` date +
+url from the official CFP) in `merge_deadlines.py`.
 
 ## 🙏 Data source & credits
 
-Deadline data comes from **[labmate.cloud](https://labmate.cloud)**, which itself builds on the
-community-maintained **[ccfddl / ccf-deadlines](https://github.com/ccfddl/ccf-deadlines)** project. This repo
-only **filters and merges** those public feeds into a single calendar — all credit for the underlying data
-goes to those projects.
+CCF-ranked deadline data comes from the community-maintained
+**[ccfddl / ccf-deadlines](https://github.com/ccfddl/ccf-deadlines)** project. This repo only **filters,
+merges, and cleans** those public feeds (plus a few hand-added non-CCF venues) into a single calendar —
+all credit for the underlying data goes to ccfddl and the venues' organizers.
 
 ## ⚠️ Disclaimer
 

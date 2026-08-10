@@ -1,0 +1,601 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//espressolee//CS Paper Deadlines//KO
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:논문 마감 (CS)
+X-WR-CALDESC:labmate.cloud 8개 분야(SC/DB/DS/CG/NW/AI/SE/MATH) 투고 마감 병합
+X-WR-TIMEZONE:Asia/Seoul
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:ccf-deadlines:dai2026:20260811115959@labmate.cloud
+DTSTAMP:20260713T020654Z
+DTSTART;VALUE=DATE:20260810
+SUMMARY:DAI 2026 (AI Paper Track) 투고 마감
+DESCRIPTION:International Conference on Distributed Artificial Intelligenc
+ e · CCF-C · 마감 타임존: AoE · 개최: November 29-December 2\, 20
+ 26 · 장소: Hong Kong\, China · 출처: https://labmate.cloud/ko/confer
+ ences
+URL:https://www.adai.ai/dai/2026/index.html
+END:VEVENT
+BEGIN:VEVENT
+UID:ccf-deadlines:mmm27:20260817115959@labmate.cloud
+DTSTAMP:20260615T123555Z
+DTSTART;VALUE=DATE:20260816
+SUMMARY:MMM 2027 투고 마감
+DESCRIPTION:International Conference on Multimedia Modeling · CCF-C · 
+ 마감 타임존: AoE · 개최: January 5-8\, 2027 · 장소: Siem Reap\,
+  Cambodia · 출처: https://labmate.cloud/ko/conferences
+URL:https://www.mmm2027.net/
+END:VEVENT
+BEGIN:VEVENT
+UID:ccf-deadlines:ndss27:20260820115959@labmate.cloud
+DTSTAMP:20260713T020654Z
+DTSTART;VALUE=DATE:20260819
+SUMMARY:NDSS 2027 (Fall) 투고 마감
+DESCRIPTION:Network and Distributed System Security (NDSS) Symposium · CC
+ F-A · 마감 타임존: UTC-12 · 개최: March 22 - March 26\, 2027 · 
+ 장소: Seoul\, Republic of Korea · 출처: https://labmate.cloud/ko/conf
+ erences
+URL:https://www.ndss-symposium.org/ndss2027/
+END:VEVENT
+BEGIN:VEVENT
+UID:ccf-deadlines:msn26:20260821115959@labmate.cloud
+DTSTAMP:20260615T123555Z
+DTSTART;VALUE=DATE:20260820
+SUMMARY:MSN 2026 투고 마감
+DESCRIPTION:International Conference on Mobility\, Sensing and Networking 
+ · CCF-C · 마감 타임존: UTC-12 · 개최: December 18-20\, 2026 · 
+ 장소: Ningbo\, China · 출처: https://labmate.cloud/ko/conferences
+URL:https://ieee-msn.org/2026
+END:VEVENT
+BEGIN:VEVENT
+UID:ccf-deadlines:asiaccs27:20260822115959@labmate.cloud
+DTSTAMP:20260713T020654Z
+DTSTART;VALUE=DATE:20260821
+SUMMARY:AsiaCCS 2027 (1st round Deadline) 투고 마감
+DESCRIPTION:Asia Conference on Computer and Communications Security · CCF
+ -C · 마감 타임존: AoE · 개최: July 12-16\, 2027 · 장소: Macau\
+ , China · 출처: https://labmate.cloud/ko/conferences
+URL:https://asiaccs2027.cityu.edu.mo/index.html
+END:VEVENT
+BEGIN:VEVENT
+UID:ccf-deadlines:wsdm27:20260825115959@labmate.cloud
+DTSTAMP:20260615T123555Z
+DTSTART;VALUE=DATE:20260824
+SUMMARY:WSDM 2027 투고 마감
+DESCRIPTION:International Conference on Web Search and Data Mining · CCF-
+ B · 마감 타임존: UTC-12 · 초록 마감: 2026-08-18 (UTC) · 개최
+ : February 15 - 19\, 2027 · 장소: Cordis\, Hong Kong SAR\, China · 출
+ 처: https://labmate.cloud/ko/conferences
+URL:https://wsdm-conference.org/2027/
+END:VEVENT
+BEGIN:VEVENT
+UID:ccf-deadlines:uss27:20260826115959@labmate.cloud
+DTSTAMP:20260713T020654Z
+DTSTART;VALUE=DATE:20260825
+SUMMARY:USENIX Security 2027 (Cycle 1 Deadline) 투고 마감
+DESCRIPTION:USENIX Security Symposium · CCF-A · 마감 타임존: UTC-12
+  · 초록 마감: 2026-08-19 (UTC) · 개최: August 11-13\, 2027 · 장
+ 소: Denver\, CO\, USA · 출처: https://labmate.cloud/ko/conferences
+URL:https://www.usenix.org/conference/usenixsecurity27
+END:VEVENT
+BEGIN:VEVENT
+UID:ccf-deadlines:3dv2027:20260828180000@labmate.cloud
+DTSTAMP:20260720T011737Z
+DTSTART;VALUE=DATE:20260828
+SUMMARY:3DV 2027 (Supplementary material due Sep 2\, 2026. All deadlines a
+ re 11:00 am PDT.) 투고 마감
+DESCRIPTION:International Conference on 3D Vision · CCF-C · 마감 타
+ 임존: UTC-7 · 개최: April 6-9\, 2027 · 장소: Thessaloniki\, Greece
+  · 출처: https://labmate.cloud/ko/conferences
+URL:https://3dvconf.github.io/2027/
+END:VEVENT
+BEGIN:VEVENT
+UID:ccf-deadlines:wacv27:20260829115959@labmate.cloud
+DTSTAMP:20260713T020654Z
+DTSTART;VALUE=DATE:20260828
+SUMMARY:WACV 2027 (Second round) 투고 마감
+DESCRIPTION:IEEE/CVF Winter Conference on Applications of Computer Vision 
+ · CCF-N · 마감 타임존: AoE · 초록 마감: 2026-08-22 (UTC) · 
+ 개최: Jan 5 - 9\, 2027 · 장소: Disney Springs\, Buena Vista\, FL\, US
+ A · 출처: https://labmate.cloud/ko/conferences
+URL:https://wacv.thecvf.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:ccf-deadlines:pets27:20260901115959@labmate.cloud
+DTSTAMP:20260713T020654Z
+DTSTART;VALUE=DATE:20260831
+SUMMARY:PETS 2027 (Issue 2 Paper Submission Deadline) 투고 마감
+DESCRIPTION:Privacy Enhancing Technologies Symposium · CCF-C · 마감 
+ 타임존: AoE · 개최: July 19-24\, 2027 · 장소: Delft\, The Netherl
+ ands · 출처: https://labmate.cloud/ko/conferences
+URL:https://petsymposium.org/cfp27.php
+END:VEVENT
+BEGIN:VEVENT
+UID:ccf-deadlines:vr27:20260901115959@labmate.cloud
+DTSTAMP:20260615T123555Z
+DTSTART;VALUE=DATE:20260831
+SUMMARY:IEEE VR 2027 투고 마감
+DESCRIPTION:IEEE Virtual Reality · CCF-A · 마감 타임존: AoE · 초
+ 록 마감: 2026-08-25 (UTC) · 개최: February 27 - March 3\, 2027 · 
+ 장소: Melbourne\, Australia · 출처: https://labmate.cloud/ko/conferen
+ ces
+URL:https://ieeevr.org/2027/
+END:VEVENT
+BEGIN:VEVENT
+UID:ccf-deadlines:vldb27:20260902050000@labmate.cloud
+DTSTAMP:20260615T123555Z
+DTSTART;VALUE=DATE:20260901
+SUMMARY:VLDB 2027 투고 마감
+DESCRIPTION:International Conference on Very Large Data Bases · CCF-A · 
+ 마감 타임존: PT · 초록 마감: 2026-08-26 (UTC) · 개최: August 
+ 23 - August 27\, 2027 · 장소: Athens\, Greece · 출처: https://labmat
+ e.cloud/ko/conferences
+URL:https://www.vldb.org/2027/
+END:VEVENT
+BEGIN:VEVENT
+UID:ccf-deadlines:asplos27:20260910115959@labmate.cloud
+DTSTAMP:20260713T020654Z
+DTSTART;VALUE=DATE:20260909
+SUMMARY:ASPLOS 2027 (September Cycle Submission Deadline) 투고 마감
+DESCRIPTION:International Conference on Architectural Support for Programm
+ ing Languages and Operating Systems · CCF-A · 마감 타임존: AoE · 
+ 개최: April 11-15\, 2027 · 장소: Crete\, Greece · 출처: https://la
+ bmate.cloud/ko/conferences
+URL:https://www.asplos-conference.org/asplos2027/cfp/
+END:VEVENT
+BEGIN:VEVENT
+UID:ccf-deadlines:icdt27:20260911115959@labmate.cloud
+DTSTAMP:20260615T123555Z
+DTSTART;VALUE=DATE:20260910
+SUMMARY:ICDT 2027 투고 마감
+DESCRIPTION:International Conference on Database Theory · CCF-B · 마감
+  타임존: AoE · 초록 마감: 2026-09-04 (UTC) · 개최: April 6-9\, 
+ 2027 · 장소: Lille\, France · 출처: https://labmate.cloud/ko/confere
+ nces
+URL:https://edbticdt2027.github.io/
+END:VEVENT
+BEGIN:VEVENT
+UID:ccf-deadlines:cgo2027:20260911115959@labmate.cloud
+DTSTAMP:20260713T020654Z
+DTSTART;VALUE=DATE:20260910
+SUMMARY:IEEE/ACM CGO 2027 (Second Submission) 투고 마감
+DESCRIPTION:The International Symposium on Code Generation and Optimizatio
+ n · CCF-B · 마감 타임존: AoE · 개최: TBD · 장소: Salt Lake Ci
+ ty\, Utah\, USA · 출처: https://labmate.cloud/ko/conferences
+URL:https://conf.researchr.org/home/cgo-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:ccf-deadlines:fast27:20260916115900@labmate.cloud
+DTSTAMP:20260713T020654Z
+DTSTART;VALUE=DATE:20260915
+SUMMARY:FAST 2027 (Fall deadline) 투고 마감
+DESCRIPTION:USENIX Conference on File and Storage Technologies · CCF-A ·
+  마감 타임존: AoE · 개최: FEBRUARY 23-25\, 2027 · 장소: Renton\
+ , WA\, USA · 출처: https://labmate.cloud/ko/conferences
+URL:https://www.usenix.org/conference/fast27
+END:VEVENT
+BEGIN:VEVENT
+UID:ccf-deadlines:wcnc27:20260916115959@labmate.cloud
+DTSTAMP:20260720T011737Z
+DTSTART;VALUE=DATE:20260915
+SUMMARY:WCNC 2027 투고 마감
+DESCRIPTION:IEEE Wireless Communications and Networking Conference · CCF-
+ C · 마감 타임존: AoE · 개최: April 5-8\, 2027 · 장소: Panama C
+ ity\, Panama · 출처: https://labmate.cloud/ko/conferences
+URL:https://wcnc2027.ieee-wcnc.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:ccf-deadlines:icassp27:20260917115959@labmate.cloud
+DTSTAMP:20260615T123555Z
+DTSTART;VALUE=DATE:20260916
+SUMMARY:ICASSP 2027 투고 마감
+DESCRIPTION:IEEE International Conference on Acoustics\, Speech\, and Sign
+ al Processing · CCF-B · 마감 타임존: UTC-12 · 개최: May 16-21\, 
+ 2027 · 장소: Toronto\, Canada · 출처: https://labmate.cloud/ko/confe
+ rences
+URL:https://2027.ieeeicassp.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:ccf-deadlines:eurocrypt27:20260918115959@labmate.cloud
+DTSTAMP:20260620T064455Z
+DTSTART;VALUE=DATE:20260917
+SUMMARY:EUROCRYPT 2027 투고 마감
+DESCRIPTION:European Cryptology Conference · CCF-A · 마감 타임존: A
+ oE · 개최: April 11-15\, 2027 · 장소: Eindhoven\, Netherlands · 출
+ 처: https://labmate.cloud/ko/conferences
+URL:https://eurocrypt.iacr.org/2027/
+END:VEVENT
+BEGIN:VEVENT
+UID:ccf-deadlines:fc27:20260918115959@labmate.cloud
+DTSTAMP:20260713T020654Z
+DTSTART;VALUE=DATE:20260917
+SUMMARY:FC 2027 (Submission deadline) 투고 마감
+DESCRIPTION:Financial Cryptography and Data Security · CCF-C · 마감 
+ 타임존: UTC-12 · 개최: February 8-12\, 2027 · 장소: Barbados (ten
+ tative) · 출처: https://labmate.cloud/ko/conferences
+URL:https://fc27.ifca.ai/
+END:VEVENT
+BEGIN:VEVENT
+UID:ccf-deadlines:mmsys27:20260918115959@labmate.cloud
+DTSTAMP:20260615T123555Z
+DTSTART;VALUE=DATE:20260917
+SUMMARY:MMSys 2027 투고 마감
+DESCRIPTION:ACM International Conference on Multimedia Systems · CCF-N ·
+  마감 타임존: AoE · 초록 마감: 2026-09-11 (UTC) · 개최: March
+  30 - April 2\, 2027 · 장소: Ghent\, Belgium · 출처: https://labmate
+ .cloud/ko/conferences
+URL:https://2027.acmmmsys.org
+END:VEVENT
+BEGIN:VEVENT
+UID:ccf-deadlines:nsdi27:20260918035959@labmate.cloud
+DTSTAMP:20260615T123555Z
+DTSTART;VALUE=DATE:20260917
+SUMMARY:NSDI 2027 투고 마감
+DESCRIPTION:USENIX Symposium on Networked Systems Design and Implementatio
+ n · CCF-A · 마감 타임존: UTC-4 · 초록 마감: 2026-09-11 (UTC) 
+ · 개최: May 11-13\, 2027 · 장소: Providence\, RI\, USA · 출처: ht
+ tps://labmate.cloud/ko/conferences
+URL:https://www.usenix.org/conference/nsdi27
+END:VEVENT
+BEGIN:VEVENT
+UID:ccf-deadlines:date2027:20260921115959@labmate.cloud
+DTSTAMP:20260615T123555Z
+DTSTART;VALUE=DATE:20260920
+SUMMARY:DATE 2027 투고 마감
+DESCRIPTION:Design\, Automation & Test in Europe · CCF-B · 마감 타임
+ 존: AoE · 초록 마감: 2026-09-14 (UTC) · 개최: March 22-24\, 2027 
+ · 장소: Dresden\, Germany · 출처: https://labmate.cloud/ko/conferenc
+ es
+URL:https://www.date-conference.com/date-2027-call-papers
+END:VEVENT
+BEGIN:VEVENT
+UID:ccf-deadlines:eurosys2027:20260925115959@labmate.cloud
+DTSTAMP:20260713T020654Z
+DTSTART;VALUE=DATE:20260924
+SUMMARY:EuroSys 2027 (Fall Submission Deadline) 투고 마감
+DESCRIPTION:European Conference on Computer Systems · CCF-A · 마감 타
+ 임존: AoE · 초록 마감: 2026-09-18 (UTC) · 개최: April 19-24\, 20
+ 27 · 장소: Rabat\, Morocco · 출처: https://labmate.cloud/ko/conferen
+ ces
+URL:https://2027.eurosys.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:ccf-deadlines:saner2027:20260926115959@labmate.cloud
+DTSTAMP:20260713T020654Z
+DTSTART;VALUE=DATE:20260925
+SUMMARY:SANER 2027 (Research Track Paper submission deadline) 투고 마감
+DESCRIPTION:IEEE International Conference on Software Analysis\, Evolution
+  and Reengineering · CCF-B · 마감 타임존: AoE · 초록 마감: 202
+ 6-09-22 (UTC) · 개최: March 9-12\, 2027 · 장소: Richmond\, Virginia\
+ , United States · 출처: https://labmate.cloud/ko/conferences
+URL:https://conf.researchr.org/home/saner-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:ccf-deadlines:vldb27:20261002050000@labmate.cloud
+DTSTAMP:20260615T123555Z
+DTSTART;VALUE=DATE:20261001
+SUMMARY:VLDB 2027 투고 마감
+DESCRIPTION:International Conference on Very Large Data Bases · CCF-A · 
+ 마감 타임존: PT · 초록 마감: 2026-09-26 (UTC) · 개최: August 
+ 23 - August 27\, 2027 · 장소: Athens\, Greece · 출처: https://labmat
+ e.cloud/ko/conferences
+URL:https://www.vldb.org/2027/
+END:VEVENT
+BEGIN:VEVENT
+UID:ccf-deadlines:ecir27:20261002235959@labmate.cloud
+DTSTAMP:20260703T075047Z
+DTSTART;VALUE=DATE:20261002
+SUMMARY:ECIR 2027 투고 마감
+DESCRIPTION:European Conference on Information Retrieval · CCF-C · 마
+ 감 타임존: UTC+0 · 초록 마감: 2026-09-25 (UTC) · 개최: March 2
+ 1-25\, 2027 · 장소: Southampton\, UK · 출처: https://labmate.cloud/k
+ o/conferences
+URL:https://ecir2027.co.uk/
+END:VEVENT
+BEGIN:VEVENT
+UID:ccf-deadlines:dcc2027:20261003115959@labmate.cloud
+DTSTAMP:20260615T123555Z
+DTSTART;VALUE=DATE:20261002
+SUMMARY:DCC 2027 투고 마감
+DESCRIPTION:Data Compression Conference · CCF-B · 마감 타임존: PT 
+ · 개최: March 23-26\, 2027 · 장소: Snowbird\, Utah\, United States 
+ · 출처: https://labmate.cloud/ko/conferences
+URL:https://datacompressionconference.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:ccf-deadlines:icc27:20261003035959@labmate.cloud
+DTSTAMP:20260720T011737Z
+DTSTART;VALUE=DATE:20261002
+SUMMARY:ICC 2027 투고 마감
+DESCRIPTION:IEEE International Conference on Communications · CCF-C · 
+ 마감 타임존: UTC-4 · 개최: May 30 - June 3\, 2027 · 장소: Washi
+ ngton\, DC\, USA · 출처: https://labmate.cloud/ko/conferences
+URL:https://icc2027.ieee-icc.org
+END:VEVENT
+BEGIN:VEVENT
+UID:ccf-deadlines:fse27:20261003115959@labmate.cloud
+DTSTAMP:20260615T123555Z
+DTSTART;VALUE=DATE:20261002
+SUMMARY:FSE 2027 투고 마감
+DESCRIPTION:ACM International Conference on the Foundations of Software En
+ gineering · CCF-A · 마감 타임존: AoE · 개최: July 12-16\, 2027 
+ · 장소: Shenzhen\, China · 출처: https://labmate.cloud/ko/conference
+ s
+URL:https://conf.researchr.org/home/fse-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:ccf-deadlines:edbt27:20261008115959@labmate.cloud
+DTSTAMP:20260615T123555Z
+DTSTART;VALUE=DATE:20261007
+SUMMARY:EDBT 2027 투고 마감
+DESCRIPTION:International Conference on Extending Database Technology · C
+ CF-B · 마감 타임존: AoE · 개최: April 6-9\, 2027 · 장소: Lille
+ \, France · 출처: https://labmate.cloud/ko/conferences
+URL:https://edbticdt2027.github.io/
+END:VEVENT
+BEGIN:VEVENT
+UID:ccf-deadlines:sigmetrics27:20261010115900@labmate.cloud
+DTSTAMP:20260713T020654Z
+DTSTART;VALUE=DATE:20261009
+SUMMARY:SIGMETRICS 2027 (fall round) 투고 마감
+DESCRIPTION:ACM Special Interest Group on Measurement and Evaluation · CC
+ F-B · 마감 타임존: AoE · 초록 마감: 2026-10-03 (UTC) · 개최:
+  June 7-11\, 2027 · 장소: Atlanta\, Georgia\, USA · 출처: https://la
+ bmate.cloud/ko/conferences
+URL:https://www.sigmetrics.org/sigmetrics2027/
+END:VEVENT
+BEGIN:VEVENT
+UID:ccf-deadlines:aamas27:20261009115900@labmate.cloud
+DTSTAMP:20260629T125508Z
+DTSTART;VALUE=DATE:20261009
+SUMMARY:AAMAS 2027 투고 마감
+DESCRIPTION:International Conference on Autonomous Agents and Multiagent S
+ ystems · CCF-B · 마감 타임존: UTC+0 · 초록 마감: 2026-10-02 (U
+ TC) · 개최: May 03\, 2027 · 장소: Hanoi\, Vietnam · 출처: https:/
+ /labmate.cloud/ko/conferences
+URL:https://openreview.net/group?id=ifaamas.org/AAMAS/2027/Conference
+END:VEVENT
+BEGIN:VEVENT
+UID:ccf-deadlines:iscas27:20261014115959@labmate.cloud
+DTSTAMP:20260620T064455Z
+DTSTART;VALUE=DATE:20261013
+SUMMARY:ISCAS 2027 투고 마감
+DESCRIPTION:IEEE International Symposium on Circuits and Systems · CCF-B 
+ · 마감 타임존: AoE · 개최: June 6-9\, 2027 · 장소: Bordeaux\, 
+ France · 출처: https://labmate.cloud/ko/conferences
+URL:https://2027.ieee-iscas.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:ccf-deadlines:ches27:20261016115959@labmate.cloud
+DTSTAMP:20260713T020654Z
+DTSTART;VALUE=DATE:20261015
+SUMMARY:CHES 2027 (Schedule for TCHES Volume 2027/2) 투고 마감
+DESCRIPTION:International Conference on Cryptographic Hardware and Embedde
+ d Systems · CCF-B · 마감 타임존: AoE · 개최: TBD\, 2027 · 장
+ 소: TBD\, Americas · 출처: https://labmate.cloud/ko/conferences
+URL:https://ches.iacr.org/2027/
+END:VEVENT
+BEGIN:VEVENT
+UID:ccf-deadlines:csfw27:20261016115959@labmate.cloud
+DTSTAMP:20260720T011737Z
+DTSTART;VALUE=DATE:20261015
+SUMMARY:CSFW 2027 (Fall) 투고 마감
+DESCRIPTION:IEEE Computer Security Foundations Symposium · CCF-B · 마
+ 감 타임존: UTC-12 · 개최: TBA · 장소: Tokyo\, Japan · 출처: h
+ ttps://labmate.cloud/ko/conferences
+URL:https://www.ieee-security.org/TC/CSF2027/
+END:VEVENT
+BEGIN:VEVENT
+UID:ccf-deadlines:sigmod27:20261018115900@labmate.cloud
+DTSTAMP:20260713T020654Z
+DTSTART;VALUE=DATE:20261017
+SUMMARY:SIGMOD 2027 (round 4) 투고 마감
+DESCRIPTION:ACM Conference on Management of Data · CCF-A · 마감 타임
+ 존: AoE · 초록 마감: 2026-10-11 (UTC) · 개최: June 13-19\, 2027 
+ · 장소: Huntington Beach\, CA\, USA · 출처: https://labmate.cloud/ko
+ /conferences
+URL:https://2027.sigmod.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:ccf-deadlines:vldb27:20261102050000@labmate.cloud
+DTSTAMP:20260615T123555Z
+DTSTART;VALUE=DATE:20261101
+SUMMARY:VLDB 2027 투고 마감
+DESCRIPTION:International Conference on Very Large Data Bases · CCF-A · 
+ 마감 타임존: PT · 초록 마감: 2026-10-26 (UTC) · 개최: August 
+ 23 - August 27\, 2027 · 장소: Athens\, Greece · 출처: https://labmat
+ e.cloud/ko/conferences
+URL:https://www.vldb.org/2027/
+END:VEVENT
+BEGIN:VEVENT
+UID:ccf-deadlines:icde27:20261112000000@labmate.cloud
+DTSTAMP:20260713T020654Z
+DTSTART;VALUE=DATE:20261111
+SUMMARY:ICDE 2027 (second round) 투고 마감
+DESCRIPTION:IEEE International Conference on Data Engineering · CCF-A · 
+ 마감 타임존: UTC-7 · 개최: May 17-21\, 2027 · 장소: Copenhagen\
+ , Denmark · 출처: https://labmate.cloud/ko/conferences
+URL:https://icde2027.github.io/
+END:VEVENT
+BEGIN:VEVENT
+UID:ccf-deadlines:refsq27:20261113115959@labmate.cloud
+DTSTAMP:20260615T123555Z
+DTSTART;VALUE=DATE:20261112
+SUMMARY:REFSQ 2027 투고 마감
+DESCRIPTION:Requirements Engineering: Foundation for Software Quality · C
+ CF-C · 마감 타임존: AoE · 초록 마감: 2026-11-06 (UTC) · 개최
+ : April 12-15\, 2027 · 장소: Basel\, Switzerland · 출처: https://lab
+ mate.cloud/ko/conferences
+URL:https://2027.refsq.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:ccf-deadlines:sp27:20261118115959@labmate.cloud
+DTSTAMP:20260713T020654Z
+DTSTART;VALUE=DATE:20261117
+SUMMARY:S&P 2027 (Second Paper submission deadline) 투고 마감
+DESCRIPTION:IEEE Symposium on Security and Privacy · CCF-A · 마감 타
+ 임존: UTC-12 · 초록 마감: 2026-11-11 (UTC) · 개최: TBD · 장소
+ : MONTREAL\, CANADA · 출처: https://labmate.cloud/ko/conferences
+URL:https://sp2027.ieee-security.org/index.html
+END:VEVENT
+BEGIN:VEVENT
+UID:ccf-deadlines:pets27:20261201115959@labmate.cloud
+DTSTAMP:20260713T020654Z
+DTSTART;VALUE=DATE:20261130
+SUMMARY:PETS 2027 (Issue 3 Paper Submission Deadline) 투고 마감
+DESCRIPTION:Privacy Enhancing Technologies Symposium · CCF-C · 마감 
+ 타임존: AoE · 개최: July 19-24\, 2027 · 장소: Delft\, The Netherl
+ ands · 출처: https://labmate.cloud/ko/conferences
+URL:https://petsymposium.org/cfp27.php
+END:VEVENT
+BEGIN:VEVENT
+UID:ccf-deadlines:vldb27:20261202050000@labmate.cloud
+DTSTAMP:20260615T123555Z
+DTSTART;VALUE=DATE:20261201
+SUMMARY:VLDB 2027 투고 마감
+DESCRIPTION:International Conference on Very Large Data Bases · CCF-A · 
+ 마감 타임존: PT · 초록 마감: 2026-11-26 (UTC) · 개최: August 
+ 23 - August 27\, 2027 · 장소: Athens\, Greece · 출처: https://labmat
+ e.cloud/ko/conferences
+URL:https://www.vldb.org/2027/
+END:VEVENT
+BEGIN:VEVENT
+UID:ccf-deadlines:dsn27:20261203115959@labmate.cloud
+DTSTAMP:20260720T011737Z
+DTSTART;VALUE=DATE:20261202
+SUMMARY:DSN 2027 투고 마감
+DESCRIPTION:International Conference on Dependable Systems and Networks ·
+  CCF-B · 마감 타임존: AoE · 초록 마감: 2026-11-26 (UTC) · 개
+ 최: June 22-25\, 2027 · 장소: Berlin\, Germany · 출처: https://labm
+ ate.cloud/ko/conferences
+URL:https://dsn2027-berlin.github.io/
+END:VEVENT
+BEGIN:VEVENT
+UID:ccf-deadlines:osdi2027:20261208225959@labmate.cloud
+DTSTAMP:20260625T033755Z
+DTSTART;VALUE=DATE:20261208
+SUMMARY:OSDI 2027 투고 마감
+DESCRIPTION:USENIX Symposium on Operating Systems Design and Implementatio
+ n · CCF-A · 마감 타임존: UTC · 초록 마감: 2026-12-01 (UTC) · 
+ 개최: July 7-9\, 2027 · 장소: Baltimore\, MD\, USA · 출처: https:/
+ /labmate.cloud/ko/conferences
+URL:https://www.usenix.org/conference/osdi27
+END:VEVENT
+BEGIN:VEVENT
+UID:ccf-deadlines:asiaccs27:20261212115959@labmate.cloud
+DTSTAMP:20260713T020654Z
+DTSTART;VALUE=DATE:20261211
+SUMMARY:AsiaCCS 2027 (2nd round Deadline) 투고 마감
+DESCRIPTION:Asia Conference on Computer and Communications Security · CCF
+ -C · 마감 타임존: AoE · 개최: July 12-16\, 2027 · 장소: Macau\
+ , China · 출처: https://labmate.cloud/ko/conferences
+URL:https://asiaccs2027.cityu.edu.mo/index.html
+END:VEVENT
+BEGIN:VEVENT
+UID:ccf-deadlines:vldb27:20270102050000@labmate.cloud
+DTSTAMP:20260615T123555Z
+DTSTART;VALUE=DATE:20270101
+SUMMARY:VLDB 2027 투고 마감
+DESCRIPTION:International Conference on Very Large Data Bases · CCF-A · 
+ 마감 타임존: PT · 초록 마감: 2026-12-26 (UTC) · 개최: August 
+ 23 - August 27\, 2027 · 장소: Athens\, Greece · 출처: https://labmat
+ e.cloud/ko/conferences
+URL:https://www.vldb.org/2027/
+END:VEVENT
+BEGIN:VEVENT
+UID:ccf-deadlines:sigmetrics27:20270112115900@labmate.cloud
+DTSTAMP:20260713T020654Z
+DTSTART;VALUE=DATE:20270111
+SUMMARY:SIGMETRICS 2027 (winter round) 투고 마감
+DESCRIPTION:ACM Special Interest Group on Measurement and Evaluation · CC
+ F-B · 마감 타임존: AoE · 초록 마감: 2027-01-05 (UTC) · 개최:
+  June 7-11\, 2027 · 장소: Atlanta\, Georgia\, USA · 출처: https://la
+ bmate.cloud/ko/conferences
+URL:https://www.sigmetrics.org/sigmetrics2027/
+END:VEVENT
+BEGIN:VEVENT
+UID:ccf-deadlines:ches27:20270116115959@labmate.cloud
+DTSTAMP:20260713T020654Z
+DTSTART;VALUE=DATE:20270115
+SUMMARY:CHES 2027 (Schedule for TCHES Volume 2027/3) 투고 마감
+DESCRIPTION:International Conference on Cryptographic Hardware and Embedde
+ d Systems · CCF-B · 마감 타임존: AoE · 개최: TBD\, 2027 · 장
+ 소: TBD\, Americas · 출처: https://labmate.cloud/ko/conferences
+URL:https://ches.iacr.org/2027/
+END:VEVENT
+BEGIN:VEVENT
+UID:ccf-deadlines:uss27:20270127115959@labmate.cloud
+DTSTAMP:20260713T020654Z
+DTSTART;VALUE=DATE:20270126
+SUMMARY:USENIX Security 2027 (Cycle 2 Deadline) 투고 마감
+DESCRIPTION:USENIX Security Symposium · CCF-A · 마감 타임존: UTC-12
+  · 초록 마감: 2027-01-20 (UTC) · 개최: August 11-13\, 2027 · 장
+ 소: Denver\, CO\, USA · 출처: https://labmate.cloud/ko/conferences
+URL:https://www.usenix.org/conference/usenixsecurity27
+END:VEVENT
+BEGIN:VEVENT
+UID:ccf-deadlines:csfw27:20270129115959@labmate.cloud
+DTSTAMP:20260720T011737Z
+DTSTART;VALUE=DATE:20270128
+SUMMARY:CSFW 2027 (Winter) 투고 마감
+DESCRIPTION:IEEE Computer Security Foundations Symposium · CCF-B · 마
+ 감 타임존: UTC-12 · 개최: TBA · 장소: Tokyo\, Japan · 출처: h
+ ttps://labmate.cloud/ko/conferences
+URL:https://www.ieee-security.org/TC/CSF2027/
+END:VEVENT
+BEGIN:VEVENT
+UID:ccf-deadlines:ijcnn2027:20270201115959@labmate.cloud
+DTSTAMP:20260712T091736Z
+DTSTART;VALUE=DATE:20270131
+SUMMARY:IJCNN 2027 투고 마감
+DESCRIPTION:International Joint Conference on Neural Networks · CCF-C · 
+ 마감 타임존: UTC-12 · 개최: June 14 - 18\, 2027 · 장소: Cape To
+ wn\, South Africa · 출처: https://labmate.cloud/ko/conferences
+URL:https://ijcnn.org/2027
+END:VEVENT
+BEGIN:VEVENT
+UID:ccf-deadlines:vldb27:20270202050000@labmate.cloud
+DTSTAMP:20260615T123555Z
+DTSTART;VALUE=DATE:20270201
+SUMMARY:VLDB 2027 투고 마감
+DESCRIPTION:International Conference on Very Large Data Bases · CCF-A · 
+ 마감 타임존: PT · 초록 마감: 2027-01-26 (UTC) · 개최: August 
+ 23 - August 27\, 2027 · 장소: Athens\, Greece · 출처: https://labmat
+ e.cloud/ko/conferences
+URL:https://www.vldb.org/2027/
+END:VEVENT
+BEGIN:VEVENT
+UID:ccf-deadlines:pets27:20270301115959@labmate.cloud
+DTSTAMP:20260713T020654Z
+DTSTART;VALUE=DATE:20270228
+SUMMARY:PETS 2027 (Issue 4 Paper Submission Deadline) 투고 마감
+DESCRIPTION:Privacy Enhancing Technologies Symposium · CCF-C · 마감 
+ 타임존: AoE · 개최: July 19-24\, 2027 · 장소: Delft\, The Netherl
+ ands · 출처: https://labmate.cloud/ko/conferences
+URL:https://petsymposium.org/cfp27.php
+END:VEVENT
+BEGIN:VEVENT
+UID:ccf-deadlines:vldb27:20270302050000@labmate.cloud
+DTSTAMP:20260615T123555Z
+DTSTART;VALUE=DATE:20270301
+SUMMARY:VLDB 2027 투고 마감
+DESCRIPTION:International Conference on Very Large Data Bases · CCF-A · 
+ 마감 타임존: PT · 초록 마감: 2027-02-26 (UTC) · 개최: August 
+ 23 - August 27\, 2027 · 장소: Athens\, Greece · 출처: https://labmat
+ e.cloud/ko/conferences
+URL:https://www.vldb.org/2027/
+END:VEVENT
+BEGIN:VEVENT
+UID:ccf-deadlines:ches27:20270416115959@labmate.cloud
+DTSTAMP:20260713T020654Z
+DTSTART;VALUE=DATE:20270415
+SUMMARY:CHES 2027 (Schedule for TCHES Volume 2027/4) 투고 마감
+DESCRIPTION:International Conference on Cryptographic Hardware and Embedde
+ d Systems · CCF-B · 마감 타임존: AoE · 개최: TBD\, 2027 · 장
+ 소: TBD\, Americas · 출처: https://labmate.cloud/ko/conferences
+URL:https://ches.iacr.org/2027/
+END:VEVENT
+END:VCALENDAR

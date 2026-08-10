@@ -1,25 +1,54 @@
-# CS Paper Deadlines — merged calendar feed
+# 📅 CS Paper Deadlines — Calendar Feed
 
-`labmate.cloud`의 8개 분야(보안·암호 SC, 데이터베이스 DB, 컴퓨터 시스템 DS, 그래픽스·비전 CG,
-네트워크 NW, 인공지능 AI, 소프트웨어공학 SE, 수학·통계 MATH) **투고 마감(paper submission
-deadline)만** 병합·중복제거한 단일 캘린더. GitHub Action이 12시간마다 갱신.
+[![update-deadlines](https://github.com/espressolee/paper-deadlines/actions/workflows/update.yml/badge.svg)](https://github.com/espressolee/paper-deadlines/actions/workflows/update.yml)
+![last commit](https://img.shields.io/github/last-commit/espressolee/paper-deadlines?label=last%20updated)
 
-## 애플 캘린더 구독 (자동 갱신)
-캘린더 앱 → **파일 → 새로운 캘린더 구독…** → 아래 URL 붙여넣기 → 자동 새로고침 "매일":
+An **auto-updating calendar feed** of upcoming **paper submission deadlines** across 8 computer-science
+fields, ready to subscribe in Apple / Google / Outlook Calendar. Refreshed every 12 hours by GitHub Actions.
+
+> Only *submission deadlines* are kept (venue/held events are filtered out), merged across fields and
+> de-duplicated, so your calendar stays clean.
+
+## 🔔 Subscribe
+
+Paste this URL into your calendar app's **"Subscribe by URL"** entry:
 
 ```
 https://raw.githubusercontent.com/espressolee/paper-deadlines/main/paper-deadlines.ics
 ```
 
-Safari 주소창에 붙여넣으면 구독창이 바로 뜨는 형태:
-```
-webcal://raw.githubusercontent.com/espressolee/paper-deadlines/main/paper-deadlines.ics
-```
+- **Apple Calendar** — Calendar → File → New Calendar Subscription… → paste URL → set auto-refresh to *Daily*.
+  (Or open `webcal://raw.githubusercontent.com/espressolee/paper-deadlines/main/paper-deadlines.ics` in Safari.)
+- **Google Calendar** — Other calendars → From URL → paste URL.
+- **Outlook** — Add calendar → Subscribe from web → paste URL.
 
-## 분야 바꾸기
-`merge_deadlines.py`의 `CODES` 편집 (labmate 페이지에서 분야 필터 클릭 → "캘린더 피드 URL 복사"로 `?sub=` 코드 확인).
+## 📚 Fields covered
 
-## 수동 갱신
-`python merge_deadlines.py` 또는 Actions 탭 → update-deadlines → Run workflow.
+Security · Databases · Computer Systems · Graphics & Vision · Networks · Artificial Intelligence ·
+Software Engineering · Mathematics & Statistics
 
-출처: https://labmate.cloud/ko/conferences
+## ⚙️ How it works
+
+`merge_deadlines.py` fetches the per-field iCal feeds from **[labmate.cloud](https://labmate.cloud/ko/conferences)**
+(codes `SC DB DS CG NW AI SE MATH`), keeps only submission-deadline events, merges + de-dupes by UID, and
+writes `paper-deadlines.ics`. A scheduled GitHub Action (`.github/workflows/update.yml`) regenerates and
+commits it every 12 h.
+
+**Customize:** edit the `CODES` list in `merge_deadlines.py` (get a field's code by filtering on the
+labmate page and clicking *Copy calendar feed URL*).
+
+## 🙏 Data source & credits
+
+Deadline data comes from **[labmate.cloud](https://labmate.cloud)**, which itself builds on the
+community-maintained **[ccfddl / ccf-deadlines](https://github.com/ccfddl/ccf-deadlines)** project. This repo
+only **filters and merges** those public feeds into a single calendar — all credit for the underlying data
+goes to those projects.
+
+## ⚠️ Disclaimer
+
+Unofficial and provided as-is. Deadlines, timezones, and rounds change — always confirm against the
+conference's official Call for Papers before relying on a date.
+
+## 📄 License
+
+[MIT](LICENSE) — code only. Deadline data belongs to its respective upstream sources.

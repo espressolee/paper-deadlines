@@ -1,35 +1,31 @@
 #!/usr/bin/env python3
 """Build one clean calendar of UPCOMING CS paper deadlines.
 
-Source: ccfddl (https://github.com/ccfddl/ccf-deadlines) — the authoritative, community-maintained
-CCF-deadlines project. This script fetches per-subfield iCal feeds, keeps upcoming deadlines only,
-merges + de-dupes, cleans titles, tags CCF rank, and adds reminders. Non-CCF venues that ccfddl does
-not track (e.g. CPP) are added by hand in MANUAL_EVENTS. Output: paper-deadlines.ics.
+Source: ccfddl (https://github.com/ccfddl/ccf-deadlines), the authoritative community CCF-deadlines
+project. Per-subfield iCal feeds are fetched, upcoming deadlines are kept, merged + de-duped by UID,
+tagged with CCF rank, and given D-7 / D-1 reminders. Original VEVENT blocks are passed through with
+minimal surgical edits (so the source's DTSTART/TZID, TEXT escaping and line folding are preserved).
+Non-CCF venues ccfddl doesn't track (e.g. CPP) are added via MANUAL_EVENTS.
 
-Safety: if ccfddl returns nothing (outage), the script aborts WITHOUT writing, so the last good
-calendar is preserved instead of being wiped.
+Reliability (fail-closed): if ANY required subfield feed fails, the script aborts WITHOUT writing, so
+the previous good calendar is preserved rather than silently publishing a partial (deleted-looking) one.
 """
 import urllib.request, sys, re, datetime, time
 
 # ---- config -----------------------------------------------------------------
-# ccfddl subfield codes. SE = SWE + PL + systems (FSE, SANER, ICSE, ASE, ISSTA, POPL, OOPSLA, PLDI,
-# ICFP); CT = theory / formal methods (CAV, LICS); plus SC DB NW AI CG.
-SUBFIELDS = ["SE", "CT", "SC", "DB", "NW", "AI", "CG"]
-
-# Optional tight allow-list: keep only these venues (by name prefix). Empty = keep all subfield venues.
-# e.g. VENUE_ALLOWLIST = ["FSE", "SANER", "ICSE", "ASE", "ISSTA", "POPL", "OOPSLA", "PLDI", "ICFP", "CAV", "CPP"]
-VENUE_ALLOWLIST = []
-
-# Non-CCF venues ccfddl doesn't track. Add {name, date(YYYYMMDD), url}; keep dates from the official CFP.
-MANUAL_EVENTS = [
-    {"name": "CPP 2027 초록 마감", "date": "20260903", "url": "https://popl27.sigplan.org/home/CPP-2027", "rank": "-"},
-    {"name": "CPP 2027 투고 마감", "date": "20260910", "url": "https://popl27.sigplan.org/home/CPP-2027", "rank": "-"},
+SUBFIELDS = ["SE", "CT", "SC", "DB", "NW", "AI", "CG"]   # ccfddl codes; SE = SWE+PL+systems
+VENUE_ALLOWLIST = []   # e.g. ["FSE","SANER","POPL","CPP"]; empty = keep all subfield venues
+MANUAL_EVENTS = [      # non-CCF venues (name / YYYYMMDD / url); keep dates from the official CFP
+    {"name": "CPP 2027 초록 마감", "date": "20260903", "url": "https://popl27.sigplan.org/home/CPP-2027"},
+    {"name": "CPP 2027 투고 마감", "date": "20260910", "url": "https://popl27.sigplan.org/home/CPP-2027"},
 ]
-
-ALARM_DAYS = [7, 1]           # reminders this many days before each deadline
+ALARM_DAYS = [7, 1]
 OUT = "paper-deadlines.ics"
 FEED = "https://ccfddl.com/conference/deadlines_zh_{}.ics"
-TODAY = datetime.date.today().strftime("%Y%m%d")
+KST = datetime.timezone(datetime.timedelta(hours=9))
+TODAY = datetime.datetime.now(KST).date()
+CUTOFF = (TODAY - datetime.timedelta(days=1)).strftime("%Y%m%d")   # 1-day grace (AoE/TZ)
+NOW_UTC = datetime.datetime.now(datetime.timezone.utc).strftime("%Y%m%dT%H%M%SZ")
 # -----------------------------------------------------------------------------
 
 
@@ -37,7 +33,7 @@ def fetch(code, retries=3):
     url = FEED.format(code)
     for a in range(retries):
         try:
-            req = urllib.request.Request(url, headers={"User-Agent": "paper-deadlines-merger/3.0"})
+            req = urllib.request.Request(url, headers={"User-Agent": "paper-deadlines-merger/4.0"})
             with urllib.request.urlopen(req, timeout=40) as r:
                 return r.read().decode("utf-8")
         except Exception as e:
@@ -51,9 +47,10 @@ def vevents(text):
     lines = text.replace("\r\n", "\n").replace("\r", "\n").split("\n")
     blocks, cur = [], None
     for ln in lines:
-        if ln == "BEGIN:VEVENT":
+        u = ln.upper()
+        if u == "BEGIN:VEVENT":
             cur = [ln]
-        elif ln == "END:VEVENT":
+        elif u == "END:VEVENT":
             if cur is not None:
                 cur.append(ln); blocks.append(cur); cur = None
         elif cur is not None:
@@ -71,97 +68,121 @@ def unfold(block):
     return out
 
 
-def field(uf, key):
-    return next((l for l in uf if l.startswith(key)), "")
+def prop(uf, name):
+    """Value of a property, matching name before ';' or ':' (case-insensitive, ignores params)."""
+    name = name.upper()
+    for l in uf:
+        head = l.split(":", 1)[0].split(";", 1)[0].upper()
+        if head == name:
+            return l.split(":", 1)[1] if ":" in l else ""
+    return ""
 
 
-def dstart(uf):
-    l = field(uf, "DTSTART")
-    return l.split(":")[-1][:8] if l else ""   # value is after the final ':' (handles ;TZID="..:.." )
+def date_of(uf):
+    l = next((x for x in uf if x.split(":", 1)[0].split(";", 1)[0].upper() == "DTSTART"), "")
+    return l.split(":")[-1][:8] if l else ""
 
 
-def ccf_rank(uf):
-    m = re.search(r"CCF[\s\-]?([ABC])\b", " ".join(uf))
-    return m.group(1) if m else "?"
+def esc(t):
+    return t.replace("\\", "\\\\").replace(";", "\\;").replace(",", "\\,").replace("\n", "\\n")
 
 
-def summary_text(uf):
-    l = field(uf, "SUMMARY")
-    return l[len("SUMMARY:"):] if l.startswith("SUMMARY:") else l
+def fold(line):
+    """Fold a content line at <=75 octets (UTF-8 safe), continuation lines start with a space."""
+    b = line.encode("utf-8")
+    if len(b) <= 75:
+        return [line]
+    out, cur = [], b""
+    first = True
+    for ch in line:
+        cb = ch.encode("utf-8")
+        limit = 75 if first else 74  # continuation reserves 1 octet for leading space
+        if len(cur) + len(cb) > limit:
+            out.append((cur if first else b" " + cur).decode("utf-8")); cur = b""; first = False
+        cur += cb
+    if cur:
+        out.append((cur if first else b" " + cur).decode("utf-8"))
+    return out
 
 
 def alarms():
     out = []
     for d in ALARM_DAYS:
-        out += ["BEGIN:VALARM", "ACTION:DISPLAY", "DESCRIPTION:마감 D-%d" % d,
-                "TRIGGER:-P%dD" % d, "END:VALARM"]
+        out += ["BEGIN:VALARM", "ACTION:DISPLAY", f"DESCRIPTION:마감 D-{d}", f"TRIGGER:-P{d}D", "END:VALARM"]
     return out
 
 
-def emit_event(uid, date, summary, desc, url, rank):
-    """Build a normalized VEVENT (date-based) with rank prefix + reminders."""
-    tag = f"[CCF-{rank}] " if rank in ("A", "B", "C") else ""
-    ev = ["BEGIN:VEVENT", f"UID:{uid}", f"DTSTAMP:{TODAY}T000000Z",
-          f"DTSTART;VALUE=DATE:{date}", f"SUMMARY:{tag}{summary}"]
-    if desc:
-        ev.append("DESCRIPTION:" + desc.replace("\n", " "))
-    if url:
-        ev.append("URL:" + url)
-    ev += alarms()
-    ev.append("END:VEVENT")
+def transform(block, rank):
+    """Pass through the original (folded) block; only edit SUMMARY (rank tag + zh->ko) and inject alarms."""
+    out = []
+    for ln in block:
+        if ln.upper() == "END:VEVENT":
+            out += alarms(); out.append("END:VEVENT"); continue
+        head = ln.split(":", 1)[0].split(";", 1)[0].upper()
+        if head == "SUMMARY" and ":" in ln:
+            pre, val = ln.split(":", 1)
+            val = val.replace("截稿日期", "투고 마감").replace("摘要截稿", "초록 마감")
+            tag = f"[CCF-{rank}] " if rank in ("A", "B", "C") else ""
+            out += fold(f"{pre}:{tag}{val}")
+        else:
+            out.append(ln)   # DTSTART/TZID, DESCRIPTION(already folded+escaped), UID, URL: verbatim
+    return out
+
+
+def ccf_rank(uf):
+    m = re.search(r"CCF[\s\-]?([ABC])\b", prop(uf, "DESCRIPTION"))
+    return m.group(1) if m else "?"
+
+
+def manual_event(m):
+    uid = "manual:" + re.sub(r"[^A-Za-z0-9]", "", m["name"]) + ":" + m["date"] + "@paper-deadlines"
+    ev = ["BEGIN:VEVENT", f"UID:{uid}", f"DTSTAMP:{NOW_UTC}", f"DTSTART;VALUE=DATE:{m['date']}"]
+    ev += fold("SUMMARY:" + esc(m["name"]))
+    ev += fold("DESCRIPTION:" + esc(f"비-CCF venue (수동 추가). {m.get('url','')}"))
+    if m.get("url"):
+        ev += fold("URL:" + m["url"])
+    ev += alarms(); ev.append("END:VEVENT")
     return ev
 
 
 def main():
-    seen, kept, ccf_n = set(), [], 0
-    allow = [v.lower() for v in VENUE_ALLOWLIST]
+    feeds, failed = {}, []
     for c in SUBFIELDS:
         t = fetch(c)
-        if not t:
-            continue
-        for b in vevents(t):
-            uf = unfold(b)
-            d, uline = dstart(uf), field(uf, "UID")
-            uid = uline[len("UID:"):] if uline.startswith("UID:") else uline
-            if not (d and d >= TODAY and uid and uid not in seen):
-                continue
-            summ = summary_text(uf).replace("截稿日期", "투고 마감").replace("摘要截稿", "초록 마감")
-            if allow and not any(summ.lower().startswith(v) or (" " + v) in summ.lower() for v in allow):
-                continue
-            seen.add(uid)
-            dl = field(uf, "DESCRIPTION")
-            desc = dl[len("DESCRIPTION:"):] if dl.startswith("DESCRIPTION:") else ""
-            ul = field(uf, "URL")
-            url = ul[len("URL:"):] if ul.startswith("URL:") else ""
-            kept.append((d, emit_event(uid, d, summ, desc, url, ccf_rank(uf))))
-            ccf_n += 1
-
-    # SAFETY: ccfddl gave nothing -> abort, keep the previous good calendar.
-    if ccf_n == 0:
-        print("ERROR: 0 events from ccfddl (outage?). Aborting without overwriting.", file=sys.stderr)
+        (feeds.__setitem__(c, t) if t else failed.append(c))
+    if failed:   # fail-closed: never publish a partial calendar
+        print(f"ERROR: feeds failed {failed}; aborting without overwriting.", file=sys.stderr)
         sys.exit(1)
 
-    for i, m in enumerate(MANUAL_EVENTS):
-        if m["date"] < TODAY:
-            continue
-        uid = f"manual-noccf:{i}:{m['date']}@paper-deadlines"
-        kept.append((m["date"], emit_event(uid, m["date"], m["name"],
-                     f"비-CCF venue (수동). {m.get('url','')}", m.get("url", ""), m.get("rank", "-"))))
+    seen, kept, allow = set(), [], [v.lower() for v in VENUE_ALLOWLIST]
+    for c in SUBFIELDS:
+        for b in vevents(feeds[c]):
+            uf = unfold(b)
+            d, uline = date_of(uf), prop(uf, "UID")
+            if not (d and d >= CUTOFF and uline and uline not in seen):
+                continue
+            summ = prop(uf, "SUMMARY").replace("截稿日期", "").replace("摘要截稿", "").lower()
+            if allow and not any(re.search(r"(?<![a-z0-9])" + re.escape(v) + r"(?![a-z0-9])", summ) for v in allow):
+                continue
+            seen.add(uline)
+            kept.append((d, transform(b, ccf_rank(uf))))
+
+    for m in MANUAL_EVENTS:
+        if m["date"] >= CUTOFF:
+            kept.append((m["date"], manual_event(m)))
 
     kept.sort(key=lambda x: x[0])
-    hdr = ["BEGIN:VCALENDAR", "VERSION:2.0",
-           "PRODID:-//espressolee//CS Paper Deadlines//EN", "CALSCALE:GREGORIAN", "METHOD:PUBLISH",
-           "X-WR-CALNAME:논문 마감 (CS)",
-           "X-WR-CALDESC:ccfddl 기반 CS 논문 마감(SE/CT/SC/DB/NW/AI/CG) 병합·미래만·CCF등급·D-7/D-1 알림. 비-CCF 수동.",
-           "X-WR-TIMEZONE:Asia/Seoul",
-           "REFRESH-INTERVAL;VALUE=DURATION:PT12H", "X-PUBLISHED-TTL:PT12H"]
+    hdr = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//espressolee//CS Paper Deadlines//EN",
+           "CALSCALE:GREGORIAN", "METHOD:PUBLISH", "X-WR-CALNAME:논문 마감 (CS)",
+           "X-WR-CALDESC:ccfddl CS paper deadlines (SE/CT/SC/DB/NW/AI/CG), upcoming, CCF-tagged, D-7/D-1. non-CCF manual.",
+           "X-WR-TIMEZONE:Asia/Seoul", "REFRESH-INTERVAL;VALUE=DURATION:PT12H", "X-PUBLISHED-TTL:PT12H"]
     out = hdr[:]
     for _, ev in kept:
         out += ev
     out.append("END:VCALENDAR")
-    with open(OUT, "w", encoding="utf-8") as f:
+    with open(OUT, "w", encoding="utf-8", newline="") as f:
         f.write("\r\n".join(out) + "\r\n")
-    print(f"wrote {OUT}: {len(kept)} upcoming ({ccf_n} ccfddl + {len(kept)-ccf_n} manual)")
+    print(f"wrote {OUT}: {len(kept)} upcoming ({len(kept)-sum(1 for _ in MANUAL_EVENTS if _['date']>=CUTOFF)} ccfddl + manual)")
 
 
 if __name__ == "__main__":

@@ -12,8 +12,8 @@ BEGIN:VEVENT
 SUMMARY:[CCF-A] NDSS 2027 투고 마감 [Fall]
 DTSTART;TZID="UTC-12:00":20260819T235959
 DTEND;TZID="UTC-12:00":20260820T000059
-DTSTAMP:20260814T075352Z
-UID:0e18f526-2d5f-4d12-8865-b3d0695e4773
+DTSTAMP:20260820T064116Z
+UID:b182fab7-6c01-4bec-946c-07bce766d3ea
 DESCRIPTION:Network and Distributed System Security (NDSS) Symposium\n🗓
  ️ 会议时间: March 22 - March 26\, 2027\n📍 会议地点: Seoul\, R
  epublic of Korea\n⏰ 原始截止时间 (UTC-12): 2026-08-19 23:59:59\n
@@ -34,35 +34,11 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[CCF-C] MSN 2026 투고 마감
-DTSTART;TZID="UTC-12:00":20260820T235959
-DTEND;TZID="UTC-12:00":20260821T000059
-DTSTAMP:20260814T075350Z
-UID:d79ccf2f-6a91-463f-b0af-508a9ce00bc9
-DESCRIPTION:International Conference on Mobility\, Sensing and Networking\
- n🗓️ 会议时间: December 18-20\, 2026\n📍 会议地点: Ningbo\, 
- China\n⏰ 原始截止时间 (UTC-12): 2026-08-20 23:59:59\n分类: 计
- 算机网络 (NW)\nCCF C\n会议官网: https://ieee-msn.org/2026\nDBLP索
- 引: https://dblp.org/db/conf/msn
-LOCATION:Ningbo\, China
-URL:https://ieee-msn.org/2026
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:마감 D-7
-TRIGGER:-P7D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:마감 D-1
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:[CCF-C] AsiaCCS 2027 투고 마감 [1st round Deadline]
 DTSTART;TZID="UTC-12:00":20260821T235959
 DTEND;TZID="UTC-12:00":20260822T000059
-DTSTAMP:20260814T075351Z
-UID:e42cadfe-ef0e-4684-89fe-a2a2c416fe2f
+DTSTAMP:20260820T064115Z
+UID:4267ac26-b67d-4a21-8e63-572cf42f13b2
 DESCRIPTION:Asia Conference on Computer and Communications Security\n🗓
  ️ 会议时间: July 12-16\, 2027\n📍 会议地点: Macau\, China\n⏰
   原始截止时间 (AoE): 2026-08-21 23:59:59\n分类: 网络与信息安
@@ -85,13 +61,13 @@ BEGIN:VEVENT
 SUMMARY:WACV 2027 초록 마감 [Second round]
 DTSTART;TZID="UTC-12:00":20260821T235900
 DTEND;TZID="UTC-12:00":20260822T000000
-DTSTAMP:20260814T075328Z
-UID:b7306915-2e47-42e5-bb82-c811c624ef03
-DESCRIPTION:IEEE/CVF Winter Conference on Applications of Computer Vision\
- n🗓️ 会议时间: Jan 5 - 9\, 2027\n📍 会议地点: Disney Springs
- \, Buena Vista\, FL\, USA\n⏰ 原始截止时间 (AoE): 2026-08-21 23:59:
- 00\n分类: 人工智能 (AI)\nCORE A\n会议官网: https://wacv.thecvf.c
- om/\nDBLP索引: https://dblp.org/db/conf/wacv
+DTSTAMP:20260820T064050Z
+UID:f0b639e7-61b6-43c5-81dd-3856e5757fd2
+DESCRIPTION:IEEE/CVF Winter Conference on Applications of Computer Vision
+ \n🗓️ 会议时间: Jan 5 - 9\, 2027\n📍 会议地点: Disney Spring
+ s\, Buena Vista\, FL\, USA\n⏰ 原始截止时间 (AoE): 2026-08-21 23:59
+ :00\n分类: 人工智能 (AI)\nCORE A\n会议官网: https://wacv.thecvf.
+ com/\nDBLP索引: https://dblp.org/db/conf/wacv
 LOCATION:Disney Springs\, Buena Vista\, FL\, USA
 URL:https://wacv.thecvf.com/
 BEGIN:VALARM
@@ -109,8 +85,8 @@ BEGIN:VEVENT
 SUMMARY:[CCF-C] MMAsia 2026 투고 마감 [Special Session Paper]
 DTSTART;TZID="UTC-12:00":20260821T235959
 DTEND;TZID="UTC-12:00":20260822T000059
-DTSTAMP:20260814T075341Z
-UID:3a487025-1425-4c9a-9d42-4e04dec7eda8
+DTSTAMP:20260820T064104Z
+UID:dc954c8b-8527-4e89-a5df-52ad5f93563b
 DESCRIPTION:ACM Multimedia Asia\n🗓️ 会议时间: December 15-18\, 20
  26\n📍 会议地点: VinUniversity\, Hanoi\, Vietnam\n⏰ 原始截止
  时间 (AoE): 2026-08-21 23:59:59\n分类: 计算机图形学与多媒体 
@@ -133,8 +109,8 @@ BEGIN:VEVENT
 SUMMARY:[CCF-B] WSDM 2027 투고 마감 [Full Paper]
 DTSTART;TZID="UTC-12:00":20260824T235959
 DTEND;TZID="UTC-12:00":20260825T000059
-DTSTAMP:20260814T075345Z
-UID:d6bd794d-173d-4481-b7c1-b892e9b62624
+DTSTAMP:20260820T064108Z
+UID:83f8c81a-42dc-4de3-85af-a8b93c79f8ff
 DESCRIPTION:International Conference on Web Search and Data Mining\n🗓
  ️ 会议时间: February 15 - 19\, 2027\n📍 会议地点: Cordis\, Hon
  g Kong SAR\, China\n⏰ 原始截止时间 (UTC-12): 2026-08-24 23:59:59\n
@@ -158,8 +134,8 @@ BEGIN:VEVENT
 SUMMARY:[CCF-A] IEEE VR 2027 초록 마감
 DTSTART;TZID="UTC-12:00":20260824T235959
 DTEND;TZID="UTC-12:00":20260825T000059
-DTSTAMP:20260814T075342Z
-UID:7e135e24-0833-4770-8a8c-585a6da31d9b
+DTSTAMP:20260820T064105Z
+UID:70f17154-9b22-47a1-8dcb-222107e9270c
 DESCRIPTION:IEEE Virtual Reality\n🗓️ 会议时间: February 27 - Marc
  h 3\, 2027\n📍 会议地点: Melbourne\, Australia\n⏰ 原始截止时
  间 (AoE): 2026-08-24 23:59:59\n分类: 计算机图形学与多媒体 (CG
@@ -182,13 +158,13 @@ BEGIN:VEVENT
 SUMMARY:[CCF-A] USENIX Security 2027 투고 마감 [Cycle 1 Deadline]
 DTSTART;TZID="UTC-12:00":20260825T235959
 DTEND;TZID="UTC-12:00":20260826T000059
-DTSTAMP:20260814T075353Z
-UID:0f3ef7ff-8c50-4879-a2a7-1a2469929f15
-DESCRIPTION:USENIX Security Symposium\n🗓️ 会议时间: August 11-13\
- , 2027\n📍 会议地点: Denver\, CO\, USA\n⏰ 原始截止时间 (UTC-
- 12): 2026-08-25 23:59:59\n分类: 网络与信息安全 (SC)\nCCF A\, CORE
-  A*\, THCPL A\n会议官网: https://www.usenix.org/conference/usenixsecur
- ity27\nDBLP索引: https://dblp.org/db/conf/uss
+DTSTAMP:20260820T064117Z
+UID:44614622-a9da-4a44-9461-994433e33bc9
+DESCRIPTION:USENIX Security Symposium\n🗓️ 会议时间: August 11-13
+ \, 2027\n📍 会议地点: Denver\, CO\, USA\n⏰ 原始截止时间 (UTC
+ -12): 2026-08-25 23:59:59\n分类: 网络与信息安全 (SC)\nCCF A\, COR
+ E A*\, THCPL A\n会议官网: https://www.usenix.org/conference/usenixsecu
+ rity27\nDBLP索引: https://dblp.org/db/conf/uss
 LOCATION:Denver\, CO\, USA
 URL:https://www.usenix.org/conference/usenixsecurity27
 BEGIN:VALARM
@@ -206,8 +182,8 @@ BEGIN:VEVENT
 SUMMARY:[CCF-A] MobiCom 2027 초록 마감 [Summer Deadlines]
 DTSTART;TZID="UTC-12:00":20260826T235959
 DTEND;TZID="UTC-12:00":20260827T000059
-DTSTAMP:20260814T075350Z
-UID:b9a41b6e-f735-4406-a9a3-e9070624391b
+DTSTAMP:20260820T064114Z
+UID:a0005fb6-c1c6-42a7-9b08-8a75d67f3d24
 DESCRIPTION:ACM Annual International Conference On Mobile Computing And Ne
  tworking\n🗓️ 会议时间: Oct 18-22\, 2027\n📍 会议地点: TBD\n
  ⏰ 原始截止时间 (AoE): 2026-08-26 23:59:59\n分类: 计算机网络
@@ -230,13 +206,13 @@ BEGIN:VEVENT
 SUMMARY:WACV 2027 투고 마감 [Second round]
 DTSTART;TZID="UTC-12:00":20260828T235959
 DTEND;TZID="UTC-12:00":20260829T000059
-DTSTAMP:20260814T075328Z
-UID:4c5dda6b-cac6-43de-b37c-a73cfefa60df
-DESCRIPTION:IEEE/CVF Winter Conference on Applications of Computer Vision\
- n🗓️ 会议时间: Jan 5 - 9\, 2027\n📍 会议地点: Disney Springs
- \, Buena Vista\, FL\, USA\n⏰ 原始截止时间 (AoE): 2026-08-28 23:59:
- 59\n分类: 人工智能 (AI)\nCORE A\n会议官网: https://wacv.thecvf.c
- om/\nDBLP索引: https://dblp.org/db/conf/wacv
+DTSTAMP:20260820T064051Z
+UID:8fc13ecc-388e-4bb3-8b14-e791b3356266
+DESCRIPTION:IEEE/CVF Winter Conference on Applications of Computer Vision
+ \n🗓️ 会议时间: Jan 5 - 9\, 2027\n📍 会议地点: Disney Spring
+ s\, Buena Vista\, FL\, USA\n⏰ 原始截止时间 (AoE): 2026-08-28 23:59
+ :59\n分类: 人工智能 (AI)\nCORE A\n会议官网: https://wacv.thecvf.
+ com/\nDBLP索引: https://dblp.org/db/conf/wacv
 LOCATION:Disney Springs\, Buena Vista\, FL\, USA
 URL:https://wacv.thecvf.com/
 BEGIN:VALARM
@@ -256,8 +232,8 @@ SUMMARY:[CCF-C] 3DV 2027 투고 마감 [Supplementary material due Sep 2\,
  l deadlines are 11:00 am PDT.]
 DTSTART;TZID="UTC-07:00":20260828T110000
 DTEND;TZID="UTC-07:00":20260828T110100
-DTSTAMP:20260814T075340Z
-UID:4a13689b-2ee4-4f46-aa92-72d95c87bf9f
+DTSTAMP:20260820T064103Z
+UID:37c0bbfc-14ad-4562-ac81-d0220b4e31e6
 DESCRIPTION:International Conference on 3D Vision\n🗓️ 会议时间: A
  pril 6-9\, 2027\n📍 会议地点: Thessaloniki\, Greece\n⏰ 原始截
  止时间 (UTC-7): 2026-08-28 11:00:00\n分类: 计算机图形学与多
@@ -277,11 +253,35 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:[CCF-C] MSN 2026 투고 마감
+DTSTART;TZID="UTC-12:00":20260830T235959
+DTEND;TZID="UTC-12:00":20260831T000059
+DTSTAMP:20260820T064114Z
+UID:ab106dbe-e251-45d1-a59a-3a687def1a70
+DESCRIPTION:International Conference on Mobility\, Sensing and Networking
+ \n🗓️ 会议时间: December 18-20\, 2026\n📍 会议地点: Ningbo\,
+  China\n⏰ 原始截止时间 (UTC-12): 2026-08-30 23:59:59\n分类: 计
+ 算机网络 (NW)\nCCF C\n会议官网: https://ieee-msn.org/2026\nDBLP索
+ 引: https://dblp.org/db/conf/msn
+LOCATION:Ningbo\, China
+URL:https://ieee-msn.org/2026
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:마감 D-7
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:마감 D-1
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:[CCF-C] PETS 2027 투고 마감 [Issue 2 Paper Submission Deadline]
 DTSTART;TZID="UTC-12:00":20260831T235959
 DTEND;TZID="UTC-12:00":20260901T000059
-DTSTAMP:20260814T075352Z
-UID:80e3bf67-f616-4559-aca8-af49f2762d2f
+DTSTAMP:20260820T064116Z
+UID:f409c853-7baf-4ed0-9edc-d1d2751de09a
 DESCRIPTION:Privacy Enhancing Technologies Symposium\n🗓️ 会议时间
  : July 19-24\, 2027\n📍 会议地点: Delft\, The Netherlands\n⏰ 原
  始截止时间 (AoE): 2026-08-31 23:59:59\n分类: 网络与信息安全 
@@ -304,8 +304,8 @@ BEGIN:VEVENT
 SUMMARY:[CCF-A] IEEE VR 2027 투고 마감
 DTSTART;TZID="UTC-12:00":20260831T235959
 DTEND;TZID="UTC-12:00":20260901T000059
-DTSTAMP:20260814T075342Z
-UID:a4c70f01-aa20-4bad-95fb-02167bb3759b
+DTSTAMP:20260820T064105Z
+UID:8bcf62ea-6554-4e6c-9c27-2cca4d1d0de9
 DESCRIPTION:IEEE Virtual Reality\n🗓️ 会议时间: February 27 - Marc
  h 3\, 2027\n📍 会议地点: Melbourne\, Australia\n⏰ 原始截止时
  间 (AoE): 2026-08-31 23:59:59\n分类: 计算机图形学与多媒体 (CG
@@ -328,8 +328,8 @@ BEGIN:VEVENT
 SUMMARY:[CCF-C] MMAsia 2026 투고 마감 [Demo / Industry Submission]
 DTSTART;TZID="UTC-12:00":20260901T235959
 DTEND;TZID="UTC-12:00":20260902T000059
-DTSTAMP:20260814T075341Z
-UID:5801a259-dd41-4230-bece-5d9a52bc7362
+DTSTAMP:20260820T064104Z
+UID:1d6d5f42-ad0a-43d0-84aa-8e4cbc034e62
 DESCRIPTION:ACM Multimedia Asia\n🗓️ 会议时间: December 15-18\, 20
  26\n📍 会议地点: VinUniversity\, Hanoi\, Vietnam\n⏰ 原始截止
  时间 (AoE): 2026-09-01 23:59:59\n分类: 计算机图形学与多媒体 
@@ -352,8 +352,8 @@ BEGIN:VEVENT
 SUMMARY:[CCF-A] MobiCom 2027 투고 마감 [Summer Deadlines]
 DTSTART;TZID="UTC-12:00":20260902T235959
 DTEND;TZID="UTC-12:00":20260903T000059
-DTSTAMP:20260814T075350Z
-UID:0a3fd728-c8d9-4c3a-923c-76940a3ef343
+DTSTAMP:20260820T064114Z
+UID:80e52dad-e103-4dd9-b05c-83e2f0e5d431
 DESCRIPTION:ACM Annual International Conference On Mobile Computing And Ne
  tworking\n🗓️ 会议时间: Oct 18-22\, 2027\n📍 会议地点: TBD\n
  ⏰ 原始截止时间 (AoE): 2026-09-02 23:59:59\n分类: 计算机网络
@@ -376,8 +376,8 @@ BEGIN:VEVENT
 SUMMARY:[CCF-B] ICDT 2027 초록 마감
 DTSTART;TZID="UTC-12:00":20260903T235959
 DTEND;TZID="UTC-12:00":20260904T000059
-DTSTAMP:20260814T075344Z
-UID:4078736d-23fa-4b91-bc64-f05ba0e31a62
+DTSTAMP:20260820T064107Z
+UID:15c45819-f9a1-4b3c-876f-dac1ed7d2d2c
 DESCRIPTION:International Conference on Database Theory\n🗓️ 会议时
  间: April 6-9\, 2027\n📍 会议地点: Lille\, France\n⏰ 原始截止
  时间 (AoE): 2026-09-03 23:59:59\n分类: 数据库/数据挖掘/内容
@@ -398,7 +398,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:manual:CPP2027:20260903@paper-deadlines
-DTSTAMP:20260820T000310Z
+DTSTAMP:20260820T120503Z
 DTSTART;VALUE=DATE:20260903
 SUMMARY:CPP 2027 초록 마감
 DESCRIPTION:비-CCF venue (수동 추가). https://popl27.sigplan.org/home/
@@ -419,8 +419,8 @@ BEGIN:VEVENT
 SUMMARY:[CCF-B] ICDT 2027 투고 마감
 DTSTART;TZID="UTC-12:00":20260910T235959
 DTEND;TZID="UTC-12:00":20260911T000059
-DTSTAMP:20260814T075344Z
-UID:4b78974a-421d-4a1a-987f-16a51b56d1ce
+DTSTAMP:20260820T064107Z
+UID:9aec3c70-0f3e-4a55-baa2-2c8acbce25fa
 DESCRIPTION:International Conference on Database Theory\n🗓️ 会议时
  间: April 6-9\, 2027\n📍 会议地点: Lille\, France\n⏰ 原始截止
  时间 (AoE): 2026-09-10 23:59:59\n分类: 数据库/数据挖掘/内容
@@ -443,8 +443,8 @@ BEGIN:VEVENT
 SUMMARY:MMSys 2027 초록 마감
 DTSTART;TZID="UTC-12:00":20260910T235959
 DTEND;TZID="UTC-12:00":20260911T000059
-DTSTAMP:20260814T075350Z
-UID:06a537a0-bf4c-4574-b523-bf2b29561dc0
+DTSTAMP:20260820T064114Z
+UID:28235645-36ee-47c3-bfe1-ca4af122edf1
 DESCRIPTION:ACM International Conference on Multimedia Systems\n🗓️ 
  会议时间: March 30 - April 2\, 2027\n📍 会议地点: Ghent\, Belgiu
  m\n⏰ 原始截止时间 (AoE): 2026-09-10 23:59:59\n分类: 计算机网
@@ -467,8 +467,8 @@ BEGIN:VEVENT
 SUMMARY:[CCF-A] NSDI 2027 초록 마감
 DTSTART;TZID="UTC-04:00":20260910T235959
 DTEND;TZID="UTC-04:00":20260911T000059
-DTSTAMP:20260814T075350Z
-UID:cddf5bde-2c04-4f2a-acef-a5194ae27d62
+DTSTAMP:20260820T064114Z
+UID:7736f39b-71a9-4424-8e48-fbfb2eea17d2
 DESCRIPTION:USENIX Symposium on Networked Systems Design and Implementatio
  n\n🗓️ 会议时间: May 11-13\, 2027\n📍 会议地点: Providence\,
   RI\, USA\n⏰ 原始截止时间 (UTC-4): 2026-09-10 23:59:59\n分类: 
@@ -489,7 +489,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:manual:CPP2027:20260910@paper-deadlines
-DTSTAMP:20260820T000310Z
+DTSTAMP:20260820T120503Z
 DTSTART;VALUE=DATE:20260910
 SUMMARY:CPP 2027 투고 마감
 DESCRIPTION:비-CCF venue (수동 추가). https://popl27.sigplan.org/home/
@@ -510,8 +510,8 @@ BEGIN:VEVENT
 SUMMARY:[CCF-C] ADMA 2026 투고 마감 [Poster Paper]
 DTSTART;TZID="UTC-12:00":20260911T235959
 DTEND;TZID="UTC-12:00":20260912T000059
-DTSTAMP:20260814T075343Z
-UID:a3d8a6c7-c7e4-4426-8fa6-151050d5a8e0
+DTSTAMP:20260820T064107Z
+UID:ac0f074f-e6fd-4ea3-86c5-cb1b662bdd5a
 DESCRIPTION:The International Conference on Advanced Data Mining and Appli
  cations\n🗓️ 会议时间: November 13 - 15\, 2026\n📍 会议地点:
   Hong Kong\, China\n⏰ 原始截止时间 (AoE): 2026-09-11 23:59:59\n分
@@ -535,8 +535,8 @@ BEGIN:VEVENT
 SUMMARY:[CCF-C] ADMA 2026 투고 마감 [Encore Paper]
 DTSTART;TZID="UTC-12:00":20260911T235959
 DTEND;TZID="UTC-12:00":20260912T000059
-DTSTAMP:20260814T075343Z
-UID:0309e63a-01bb-4ac3-abd0-1cbb7ee1087b
+DTSTAMP:20260820T064107Z
+UID:53d69a1f-6ae2-45af-b89c-f95751d65ab6
 DESCRIPTION:The International Conference on Advanced Data Mining and Appli
  cations\n🗓️ 会议时间: November 13 - 15\, 2026\n📍 会议地点:
   Hong Kong\, China\n⏰ 原始截止时间 (AoE): 2026-09-11 23:59:59\n分
@@ -560,8 +560,8 @@ BEGIN:VEVENT
 SUMMARY:[CCF-C] WCNC 2027 투고 마감
 DTSTART;TZID="UTC-12:00":20260915T235959
 DTEND;TZID="UTC-12:00":20260916T000059
-DTSTAMP:20260814T075351Z
-UID:09200744-713d-424d-9765-14430d836584
+DTSTAMP:20260820T064114Z
+UID:1558c8a0-d5e9-4e32-a07a-1a82d5ec60cf
 DESCRIPTION:IEEE Wireless Communications and Networking Conference\n🗓
  ️ 会议时间: April 5-8\, 2027\n📍 会议地点: Panama City\, Panam
  a\n⏰ 原始截止时间 (AoE): 2026-09-15 23:59:59\n分类: 计算机网
@@ -584,8 +584,8 @@ BEGIN:VEVENT
 SUMMARY:[CCF-B] ICRA 2027 투고 마감
 DTSTART;TZID="UTC-07:00":20260915T235959
 DTEND;TZID="UTC-07:00":20260916T000059
-DTSTAMP:20260814T075328Z
-UID:894ccbce-fb63-4c4f-b6d6-666438d135f9
+DTSTAMP:20260820T064050Z
+UID:59651c6d-a0bf-490b-83f9-8506e57a6919
 DESCRIPTION:IEEE International Conference on Robotics and Automation\n🗓
  ️ 会议时间: May 24-28\, 2027\n📍 会议地点: Seoul\, Republic of
   Korea\n⏰ 原始截止时间 (UTC-7): 2026-09-15 23:59:59\n分类: 人
@@ -608,8 +608,8 @@ BEGIN:VEVENT
 SUMMARY:[CCF-B] VMCAI 2027 투고 마감
 DTSTART;TZID="UTC-12:00":20260916T235959
 DTEND;TZID="UTC-12:00":20260917T000059
-DTSTAMP:20260814T075346Z
-UID:a4b83f2e-edb4-43cc-9aeb-adf302fc8fbf
+DTSTAMP:20260820T064109Z
+UID:78b6f8bd-b08d-4c31-8426-f0e2475ae2e3
 DESCRIPTION:International Conference on Verification\, Model Checking\, an
  d Abstract Interpretation\n🗓️ 会议时间: January 11-12\, 2027\n
  📍 会议地点: Mexico City\, Mexico\n⏰ 原始截止时间 (AoE): 202
@@ -633,8 +633,8 @@ BEGIN:VEVENT
 SUMMARY:[CCF-B] ICASSP 2027 투고 마감
 DTSTART;TZID="UTC-12:00":20260916T235959
 DTEND;TZID="UTC-12:00":20260917T000059
-DTSTAMP:20260814T075341Z
-UID:1dcb265e-7472-4b61-af33-0ff3ba4f7b04
+DTSTAMP:20260820T064104Z
+UID:1b847b55-af99-49de-8427-fee6684664bc
 DESCRIPTION:IEEE International Conference on Acoustics\, Speech\, and Sign
  al Processing\n🗓️ 会议时间: May 16-21\, 2027\n📍 会议地点: 
  Toronto\, Canada\n⏰ 原始截止时间 (UTC-12): 2026-09-16 23:59:59\n
@@ -658,8 +658,8 @@ BEGIN:VEVENT
 SUMMARY:[CCF-A] EUROCRYPT 2027 투고 마감
 DTSTART;TZID="UTC-12:00":20260917T235959
 DTEND;TZID="UTC-12:00":20260918T000059
-DTSTAMP:20260814T075352Z
-UID:e56bc763-7c16-486a-bcae-7e7ba5b18949
+DTSTAMP:20260820T064115Z
+UID:9a556e7b-b1b5-494c-b839-029cc8a01d16
 DESCRIPTION:European Cryptology Conference\n🗓️ 会议时间: April 11
  -15\, 2027\n📍 会议地点: Eindhoven\, Netherlands\n⏰ 原始截止
  时间 (AoE): 2026-09-17 23:59:59\n分类: 网络与信息安全 (SC)\nCCF
@@ -682,8 +682,8 @@ BEGIN:VEVENT
 SUMMARY:[CCF-C] FC 2027 투고 마감 [Submission deadline]
 DTSTART;TZID="UTC-12:00":20260917T235959
 DTEND;TZID="UTC-12:00":20260918T000059
-DTSTAMP:20260814T075352Z
-UID:555bb47d-d27d-494d-a225-30ad445e3d0e
+DTSTAMP:20260820T064115Z
+UID:6ad6fbe5-247e-4bfb-98a9-8d11c30c04cd
 DESCRIPTION:Financial Cryptography and Data Security\n🗓️ 会议时间
  : February 8-12\, 2027\n📍 会议地点: Barbados (tentative)\n⏰ 原
  始截止时间 (UTC-12): 2026-09-17 23:59:59\n分类: 网络与信息安
@@ -706,8 +706,8 @@ BEGIN:VEVENT
 SUMMARY:MMSys 2027 투고 마감
 DTSTART;TZID="UTC-12:00":20260917T235959
 DTEND;TZID="UTC-12:00":20260918T000059
-DTSTAMP:20260814T075350Z
-UID:2a9d2e17-216a-4204-96b7-38d8d6e8ea4c
+DTSTAMP:20260820T064114Z
+UID:54c4d5e4-35a9-4301-90c0-1bb72cd6fa79
 DESCRIPTION:ACM International Conference on Multimedia Systems\n🗓️ 
  会议时间: March 30 - April 2\, 2027\n📍 会议地点: Ghent\, Belgiu
  m\n⏰ 原始截止时间 (AoE): 2026-09-17 23:59:59\n分类: 计算机网
@@ -730,8 +730,8 @@ BEGIN:VEVENT
 SUMMARY:[CCF-A] NSDI 2027 투고 마감
 DTSTART;TZID="UTC-04:00":20260917T235959
 DTEND;TZID="UTC-04:00":20260918T000059
-DTSTAMP:20260814T075350Z
-UID:a8a95fcd-3f5f-4121-8886-8e1dd775da48
+DTSTAMP:20260820T064114Z
+UID:3468157c-fc0a-425a-8ecf-9a4a3a9dfe09
 DESCRIPTION:USENIX Symposium on Networked Systems Design and Implementatio
  n\n🗓️ 会议时间: May 11-13\, 2027\n📍 会议地点: Providence\,
   RI\, USA\n⏰ 原始截止时间 (UTC-4): 2026-09-17 23:59:59\n分类: 
@@ -754,8 +754,8 @@ BEGIN:VEVENT
 SUMMARY:[CCF-A] ICLR 2027 초록 마감
 DTSTART;TZID="UTC-12:00":20260918T235959
 DTEND;TZID="UTC-12:00":20260919T000059
-DTSTAMP:20260814T075327Z
-UID:1af91279-6f1e-45b5-b1bb-13360204f897
+DTSTAMP:20260820T064050Z
+UID:94df790f-f438-4691-8378-ad65ee13b06e
 DESCRIPTION:International Conference on Learning Representations\n🗓️ 
  会议时间: April 26-30\, 2027\n📍 会议地点: San Francisco\, CA\, 
  USA\n⏰ 原始截止时间 (AoE): 2026-09-18 23:59:59\n分类: 人工智
@@ -779,8 +779,8 @@ SUMMARY:[CCF-B] SANER 2027 초록 마감 [Research Track Paper submission d
  eadline]
 DTSTART;TZID="UTC-12:00":20260921T235959
 DTEND;TZID="UTC-12:00":20260922T000059
-DTSTAMP:20260814T075346Z
-UID:85eb786e-e892-4498-a5e7-8f4ed49afc8d
+DTSTAMP:20260820T064109Z
+UID:f806f4ae-32a4-4110-b4f5-97b8c951f686
 DESCRIPTION:IEEE International Conference on Software Analysis\, Evolution
   and Reengineering\n🗓️ 会议时间: March 9-12\, 2027\n📍 会议
  地点: Richmond\, Virginia\, United States\n⏰ 原始截止时间 (AoE):
@@ -804,8 +804,8 @@ BEGIN:VEVENT
 SUMMARY:[CCF-C] ACNS 2027 투고 마감 [Cycle 1 Submission deadline]
 DTSTART;TZID="UTC-12:00":20260924T235959
 DTEND;TZID="UTC-12:00":20260925T000059
-DTSTAMP:20260814T075351Z
-UID:456faf3a-6eee-4491-be0d-c838660be8fe
+DTSTAMP:20260820T064114Z
+UID:d902333b-2555-4dbf-82ad-720b57d789e1
 DESCRIPTION:Applied Cryptography and Network Security\n🗓️ 会议时
  间: June 28 - July 1\, 2027\n📍 会议地点: Royal Holloway\, Egham\, 
  UK\n⏰ 原始截止时间 (AoE): 2026-09-24 23:59:59\n分类: 网络与
@@ -829,8 +829,8 @@ SUMMARY:[CCF-B] SANER 2027 투고 마감 [Research Track Paper submission d
  eadline]
 DTSTART;TZID="UTC-12:00":20260925T235959
 DTEND;TZID="UTC-12:00":20260926T000059
-DTSTAMP:20260814T075346Z
-UID:962189e7-f8b2-4adf-8e29-8b3c088fa13c
+DTSTAMP:20260820T064109Z
+UID:85a78dfe-cd65-4a7c-83c8-2bb1d1875e40
 DESCRIPTION:IEEE International Conference on Software Analysis\, Evolution
   and Reengineering\n🗓️ 会议时间: March 9-12\, 2027\n📍 会议
  地点: Richmond\, Virginia\, United States\n⏰ 原始截止时间 (AoE):
@@ -854,8 +854,8 @@ BEGIN:VEVENT
 SUMMARY:[CCF-C] ECIR 2027 초록 마감
 DTSTART:20260925T235959Z
 DTEND:20260926T000059Z
-DTSTAMP:20260814T075343Z
-UID:7935f70d-46ca-4261-9640-a4385b6cc037
+DTSTAMP:20260820T064107Z
+UID:ba6c27cd-80ed-4b77-bf6a-451244938284
 DESCRIPTION:European Conference on Information Retrieval\n🗓️ 会议
  时间: March 21-25\, 2027\n📍 会议地点: Southampton\, UK\n⏰ 原
  始截止时间 (UTC+0): 2026-09-25 23:59:59\n分类: 数据库/数据挖
@@ -878,8 +878,8 @@ BEGIN:VEVENT
 SUMMARY:[CCF-A] ICLR 2027 투고 마감
 DTSTART;TZID="UTC-12:00":20260925T235959
 DTEND;TZID="UTC-12:00":20260926T000059
-DTSTAMP:20260814T075327Z
-UID:763339e5-3851-4148-bb62-e8211359a348
+DTSTAMP:20260820T064050Z
+UID:b35e4f95-4d7e-441b-8906-d74b44da5017
 DESCRIPTION:International Conference on Learning Representations\n🗓️ 
  会议时间: April 26-30\, 2027\n📍 会议地点: San Francisco\, CA\, 
  USA\n⏰ 原始截止时间 (AoE): 2026-09-25 23:59:59\n分类: 人工智
@@ -902,8 +902,8 @@ BEGIN:VEVENT
 SUMMARY:[CCF-B] Eurographics 2027 초록 마감
 DTSTART:20260925T235959Z
 DTEND:20260926T000059Z
-DTSTAMP:20260814T075341Z
-UID:2721a78f-bc6c-4eba-9056-3d05de4d63be
+DTSTAMP:20260820T064104Z
+UID:13d24b32-de8e-42cc-8c6a-d239fcda17af
 DESCRIPTION:Eurographics\n🗓️ 会议时间: May 10-14\, 2027\n📍 会
  议地点: Lucca\, Italy\n⏰ 原始截止时间 (UTC): 2026-09-25 23:59:5
  9\n分类: 计算机图形学与多媒体 (CG)\nCCF B\, CORE B\, THCPL B\n
@@ -926,8 +926,8 @@ BEGIN:VEVENT
 SUMMARY:SATML 2027 투고 마감
 DTSTART;TZID="UTC-12:00":20260929T235959
 DTEND;TZID="UTC-12:00":20260930T000059
-DTSTAMP:20260814T075353Z
-UID:c238513e-1b0f-4264-850c-578ba7c2cfee
+DTSTAMP:20260820T064116Z
+UID:d5cefd2c-04e4-48e2-8d78-96d112deda49
 DESCRIPTION:IEEE Conference on Secure and Trustworthy Machine Learning\n
  🗓️ 会议时间: May 2027 (exact dates TBD)\n📍 会议地点: Reykj
  avik\, Iceland\n⏰ 原始截止时间 (UTC-12): 2026-09-29 23:59:59\n分
@@ -950,8 +950,8 @@ BEGIN:VEVENT
 SUMMARY:[CCF-B] Eurographics 2027 투고 마감
 DTSTART:20261001T235959Z
 DTEND:20261002T000059Z
-DTSTAMP:20260814T075341Z
-UID:9d42eca5-95ae-4693-8ef3-e01005a304b3
+DTSTAMP:20260820T064104Z
+UID:4e49f817-3dd9-4fbc-9708-730e13912917
 DESCRIPTION:Eurographics\n🗓️ 会议时间: May 10-14\, 2027\n📍 会
  议地点: Lucca\, Italy\n⏰ 原始截止时间 (UTC): 2026-10-01 23:59:5
  9\n分类: 计算机图形学与多媒体 (CG)\nCCF B\, CORE B\, THCPL B\n
@@ -974,8 +974,8 @@ BEGIN:VEVENT
 SUMMARY:[CCF-A] FSE 2027 투고 마감
 DTSTART;TZID="UTC-12:00":20261002T235959
 DTEND;TZID="UTC-12:00":20261003T000059
-DTSTAMP:20260814T075344Z
-UID:4f028f46-edd0-4ede-994e-fb6bcdc62dac
+DTSTAMP:20260820T064108Z
+UID:a1094288-2d5d-43c4-9b00-bbc172259807
 DESCRIPTION:ACM International Conference on the Foundations of Software En
  gineering\n🗓️ 会议时间: July 12-16\, 2027\n📍 会议地点: She
  nzhen\, China\n⏰ 原始截止时间 (AoE): 2026-10-02 23:59:59\n分类: 
@@ -999,8 +999,8 @@ BEGIN:VEVENT
 SUMMARY:[CCF-C] ECIR 2027 투고 마감
 DTSTART:20261002T235959Z
 DTEND:20261003T000059Z
-DTSTAMP:20260814T075343Z
-UID:b38c49cc-3ee9-4b8e-8de1-605dbdcde4ba
+DTSTAMP:20260820T064107Z
+UID:4b727649-5661-4b7a-bc4b-15a51becdb45
 DESCRIPTION:European Conference on Information Retrieval\n🗓️ 会议
  时间: March 21-25\, 2027\n📍 会议地点: Southampton\, UK\n⏰ 原
  始截止时间 (UTC+0): 2026-10-02 23:59:59\n分类: 数据库/数据挖
@@ -1023,8 +1023,8 @@ BEGIN:VEVENT
 SUMMARY:[CCF-C] ICC 2027 투고 마감
 DTSTART;TZID="UTC-04:00":20261002T235959
 DTEND;TZID="UTC-04:00":20261003T000059
-DTSTAMP:20260814T075350Z
-UID:9c2d17eb-1704-4e59-9605-43603f052daf
+DTSTAMP:20260820T064113Z
+UID:1c7ff564-a401-4e39-9fb0-b9740303d368
 DESCRIPTION:IEEE International Conference on Communications\n🗓️ 会
  议时间: May 30 - June 3\, 2027\n📍 会议地点: Washington\, DC\, US
  A\n⏰ 原始截止时间 (UTC-4): 2026-10-02 23:59:59\n分类: 计算机
@@ -1047,8 +1047,8 @@ BEGIN:VEVENT
 SUMMARY:[CCF-B] AAMAS 2027 초록 마감
 DTSTART:20261002T115900Z
 DTEND:20261002T120000Z
-DTSTAMP:20260814T075326Z
-UID:afb1fdbb-8615-4c3d-9df8-4709da2f9d7c
+DTSTAMP:20260820T064049Z
+UID:9ce87ac6-5a1a-4640-903a-45e3e1a1c863
 DESCRIPTION:International Conference on Autonomous Agents and Multiagent S
  ystems\n🗓️ 会议时间: May 03\, 2027\n📍 会议地点: Hanoi\, Vi
  etnam\n⏰ 原始截止时间 (UTC+0): 2026-10-02 11:59:00\n分类: 人工
@@ -1072,11 +1072,11 @@ BEGIN:VEVENT
 SUMMARY:[CCF-B] EDBT 2027 투고 마감
 DTSTART;TZID="UTC-12:00":20261007T235959
 DTEND;TZID="UTC-12:00":20261008T000059
-DTSTAMP:20260814T075344Z
-UID:07536fa7-604c-4929-8154-83452c0b62a2
+DTSTAMP:20260820T064107Z
+UID:0b06264d-0cfe-40d6-b186-be6642ca1a9c
 DESCRIPTION:International Conference on Extending Database Technology\n
- 🗓️ 会议时间: April 6-9\, 2027\n📍 会议地点: Lille\, France\
- n⏰ 原始截止时间 (AoE): 2026-10-07 23:59:59\n分类: 数据库/数
+ 🗓️ 会议时间: April 6-9\, 2027\n📍 会议地点: Lille\, France
+ \n⏰ 原始截止时间 (AoE): 2026-10-07 23:59:59\n分类: 数据库/数
  据挖掘/内容检索 (DB)\nCCF B\, CORE A\, THCPL B\n会议官网: https
  ://edbticdt2027.github.io/\nDBLP索引: https://dblp.org/db/conf/edbt
 LOCATION:Lille\, France
@@ -1096,8 +1096,8 @@ BEGIN:VEVENT
 SUMMARY:[CCF-B] AAMAS 2027 투고 마감
 DTSTART:20261009T115900Z
 DTEND:20261009T120000Z
-DTSTAMP:20260814T075326Z
-UID:2cdac9ff-9dfa-421d-8d7c-41f23f5d0962
+DTSTAMP:20260820T064049Z
+UID:73b65fc7-2d95-4b00-8229-d5d00a40e572
 DESCRIPTION:International Conference on Autonomous Agents and Multiagent S
  ystems\n🗓️ 会议时间: May 03\, 2027\n📍 会议地点: Hanoi\, Vi
  etnam\n⏰ 原始截止时间 (UTC+0): 2026-10-09 11:59:00\n分类: 人工
@@ -1121,8 +1121,8 @@ BEGIN:VEVENT
 SUMMARY:[CCF-C] FG 2027 초록 마감
 DTSTART;TZID="UTC-12:00":20261009T235959
 DTEND;TZID="UTC-12:00":20261010T000059
-DTSTAMP:20260814T075327Z
-UID:bb25b1f6-3aa8-405a-8040-76d73f056a9a
+DTSTAMP:20260820T064050Z
+UID:eef19a18-4a37-42c2-b589-69c58372c509
 DESCRIPTION:International Conference on Automatic Face and Gesture Recogni
  tion\n🗓️ 会议时间: April 26-30\, 2027\n📍 会议地点: Marrake
  sh\, Morocco\n⏰ 原始截止时间 (AoE): 2026-10-09 23:59:59\n分类: 
@@ -1145,8 +1145,8 @@ BEGIN:VEVENT
 SUMMARY:[CCF-A] SIGMOD 2027 초록 마감 [round 4]
 DTSTART;TZID="UTC-12:00":20261010T235900
 DTEND;TZID="UTC-12:00":20261011T000000
-DTSTAMP:20260814T075344Z
-UID:d81347ce-0a99-445d-82fa-738b8e680213
+DTSTAMP:20260820T064108Z
+UID:08f4f367-1c8b-4a4c-b7cb-2547e24fa4d4
 DESCRIPTION:ACM Conference on Management of Data\n🗓️ 会议时间: Ju
  ne 13-19\, 2027\n📍 会议地点: Huntington Beach\, CA\, USA\n⏰ 原
  始截止时间 (AoE): 2026-10-10 23:59:00\n分类: 数据库/数据挖掘
@@ -1169,8 +1169,8 @@ BEGIN:VEVENT
 SUMMARY:[CCF-C] ALT 2027 투고 마감
 DTSTART;TZID="UTC-12:00":20261012T235959
 DTEND;TZID="UTC-12:00":20261013T000059
-DTSTAMP:20260814T075326Z
-UID:a63b957b-b69d-4dca-bef3-1317b1394244
+DTSTAMP:20260820T064049Z
+UID:8c0ac034-bead-4890-b136-1e42bc8e694c
 DESCRIPTION:International Conference on Algorithmic Learning Theory\n🗓
  ️ 会议时间: March 9-12\, 2027\n📍 会议地点: Leiden\, Netherlan
  ds\n⏰ 原始截止时间 (AoE): 2026-10-12 23:59:59\n分类: 人工智
@@ -1193,8 +1193,8 @@ BEGIN:VEVENT
 SUMMARY:[CCF-B] COLING 2027 투고 마감 [ARR Submission]
 DTSTART;TZID="UTC-12:00":20261012T235959
 DTEND;TZID="UTC-12:00":20261013T000059
-DTSTAMP:20260814T075327Z
-UID:1148e70b-b924-4b11-a9c8-e75d35f30209
+DTSTAMP:20260820T064049Z
+UID:06c58ee3-8874-4622-879a-87816ebf384d
 DESCRIPTION:INTERNATIONNAL CONFERENCE ON COMPUTATIONAL LINGUISTICS\n🗓
  ️ 会议时间: May 9-14\, 2027\n📍 会议地点: Macau SAR\, China\n
  ⏰ 原始截止时间 (UTC-12): 2026-10-12 23:59:59\n分类: 人工智能
@@ -1217,8 +1217,8 @@ BEGIN:VEVENT
 SUMMARY:[CCF-B] NAACL 2027 투고 마감 [ARR Submission]
 DTSTART;TZID="UTC-12:00":20261012T235959
 DTEND;TZID="UTC-12:00":20261013T000059
-DTSTAMP:20260814T075328Z
-UID:ed8063ba-1e67-477c-92f3-a3d56c93e9a7
+DTSTAMP:20260820T064050Z
+UID:f3f14572-b3ab-45a8-992c-c2048ec9c865
 DESCRIPTION:The Annual Conference of the North American Chapter of the Ass
  ociation for Computational Linguistics\n🗓️ 会议时间: June 1-5\, 2
  027\n📍 会议地点: San Francisco\, California\, USA\n⏰ 原始截止
@@ -1242,8 +1242,8 @@ BEGIN:VEVENT
 SUMMARY:[CCF-B] CHES 2027 투고 마감 [Schedule for TCHES Volume 2027/2]
 DTSTART;TZID="UTC-12:00":20261015T235959
 DTEND;TZID="UTC-12:00":20261016T000059
-DTSTAMP:20260814T075351Z
-UID:a9b0692d-b6d0-416d-b928-7d310298d90f
+DTSTAMP:20260820T064115Z
+UID:8916888b-7348-4667-934c-9c11b863c277
 DESCRIPTION:International Conference on Cryptographic Hardware and Embedde
  d Systems\n🗓️ 会议时间: September 6 - 9\, 2027\n📍 会议地点
  : Cancún\, Mexico\n⏰ 原始截止时间 (AoE): 2026-10-15 23:59:59\n分
@@ -1266,8 +1266,8 @@ BEGIN:VEVENT
 SUMMARY:[CCF-B] CSFW 2027 투고 마감 [Fall]
 DTSTART;TZID="UTC-12:00":20261015T235959
 DTEND;TZID="UTC-12:00":20261016T000059
-DTSTAMP:20260814T075351Z
-UID:472e4475-05e0-44b1-b33c-6095d0531600
+DTSTAMP:20260820T064115Z
+UID:4dc01706-33f1-4dd4-974b-ba4adffcab15
 DESCRIPTION:IEEE Computer Security Foundations Symposium\n🗓️ 会议
  时间: TBA\n📍 会议地点: Tokyo\, Japan\n⏰ 原始截止时间 (UTC
  -12): 2026-10-15 23:59:59\n分类: 网络与信息安全 (SC)\nCCF B\, COR
@@ -1290,8 +1290,8 @@ BEGIN:VEVENT
 SUMMARY:[CCF-C] FG 2027 투고 마감
 DTSTART;TZID="UTC-12:00":20261016T235959
 DTEND;TZID="UTC-12:00":20261017T000059
-DTSTAMP:20260814T075327Z
-UID:0a665f50-8302-40e8-bf77-1574f8355ab0
+DTSTAMP:20260820T064050Z
+UID:6993d635-70d5-430c-87de-51fe8b0bbc00
 DESCRIPTION:International Conference on Automatic Face and Gesture Recogni
  tion\n🗓️ 会议时间: April 26-30\, 2027\n📍 会议地点: Marrake
  sh\, Morocco\n⏰ 原始截止时间 (AoE): 2026-10-16 23:59:59\n分类: 
@@ -1314,8 +1314,8 @@ BEGIN:VEVENT
 SUMMARY:[CCF-A] SIGMOD 2027 투고 마감 [round 4]
 DTSTART;TZID="UTC-12:00":20261017T235900
 DTEND;TZID="UTC-12:00":20261018T000000
-DTSTAMP:20260814T075344Z
-UID:99201e76-c40f-4ea1-9000-6fd294537951
+DTSTAMP:20260820T064108Z
+UID:8682296c-0fc1-432b-9717-6f844bab7f2a
 DESCRIPTION:ACM Conference on Management of Data\n🗓️ 会议时间: Ju
  ne 13-19\, 2027\n📍 会议地点: Huntington Beach\, CA\, USA\n⏰ 原
  始截止时间 (AoE): 2026-10-17 23:59:00\n分类: 数据库/数据挖掘
@@ -1338,8 +1338,8 @@ BEGIN:VEVENT
 SUMMARY:[CCF-C] CT-RSA 2027 투고 마감 [Paper submission deadline]
 DTSTART;TZID="UTC-12:00":20261022T235959
 DTEND;TZID="UTC-12:00":20261023T000059
-DTSTAMP:20260814T075351Z
-UID:0fc7fdca-ef63-4188-ad05-e648b35a1d14
+DTSTAMP:20260820T064115Z
+UID:2e422fcc-04e2-417f-998a-60bc2bbc3bc7
 DESCRIPTION:Cryptographer's Track at RSA Conference\n🗓️ 会议时间:
   April 5-8\, 2027\n📍 会议地点: San Francisco\, California\, USA\n
  ⏰ 原始截止时间 (UTC-12): 2026-10-22 23:59:59\n分类: 网络与信
@@ -1363,8 +1363,8 @@ BEGIN:VEVENT
 SUMMARY:[CCF-C] REFSQ 2027 초록 마감
 DTSTART;TZID="UTC-12:00":20261105T235959
 DTEND;TZID="UTC-12:00":20261106T000059
-DTSTAMP:20260814T075346Z
-UID:3aabef77-18e1-4b42-9962-285efd59f270
+DTSTAMP:20260820T064109Z
+UID:bc844379-c511-41cb-8d38-96dec820dc85
 DESCRIPTION:Requirements Engineering: Foundation for Software Quality\n
  🗓️ 会议时间: April 12-15\, 2027\n📍 会议地点: Basel\, Switz
  erland\n⏰ 原始截止时间 (AoE): 2026-11-05 23:59:59\n分类: 软件
@@ -1387,8 +1387,8 @@ BEGIN:VEVENT
 SUMMARY:[CCF-A] S&P 2027 초록 마감 [Second Paper submission deadline]
 DTSTART;TZID="UTC-12:00":20261110T235959
 DTEND;TZID="UTC-12:00":20261111T000059
-DTSTAMP:20260814T075353Z
-UID:e2da3026-a1c8-4fcd-ab3e-a98568d0f5b0
+DTSTAMP:20260820T064117Z
+UID:71f6a40d-f77c-48fc-a25c-20dda227b4d2
 DESCRIPTION:IEEE Symposium on Security and Privacy\n🗓️ 会议时间: 
  TBD\n📍 会议地点: MONTREAL\, CANADA\n⏰ 原始截止时间 (UTC-12)
  : 2026-11-10 23:59:59\n分类: 网络与信息安全 (SC)\nCCF A\, CORE A*
@@ -1411,8 +1411,8 @@ BEGIN:VEVENT
 SUMMARY:[CCF-A] ICDE 2027 투고 마감 [second round]
 DTSTART;TZID="UTC-07:00":20261111T170000
 DTEND;TZID="UTC-07:00":20261111T170100
-DTSTAMP:20260814T075344Z
-UID:ccc28706-383a-4823-a07f-6efcebb73175
+DTSTAMP:20260820T064107Z
+UID:35a7da5b-5632-4e44-b46b-08cf767e2c17
 DESCRIPTION:IEEE International Conference on Data Engineering\n🗓️ 会
  议时间: May 17-21\, 2027\n📍 会议地点: Copenhagen\, Denmark\n⏰ 
  原始截止时间 (UTC-7): 2026-11-11 17:00:00\n分类: 数据库/数据
@@ -1435,8 +1435,8 @@ BEGIN:VEVENT
 SUMMARY:[CCF-A] PLDI 2027 투고 마감
 DTSTART;TZID="UTC-12:00":20261112T235959
 DTEND;TZID="UTC-12:00":20261113T000059
-DTSTAMP:20260814T075345Z
-UID:4fb70410-b0a6-4340-ba52-4ad335a603c0
+DTSTAMP:20260820T064109Z
+UID:a39f2dfd-fa5f-43e0-9709-d7db810d1c0d
 DESCRIPTION:ACM SIGPLAN Conference on Programming Language Design & Implem
  entation\n🗓️ 会议时间: June 5-11\, 2027\n📍 会议地点: Atlan
  ta\, Georgia\, USA\n⏰ 原始截止时间 (AoE): 2026-11-12 23:59:59\n分
@@ -1460,8 +1460,8 @@ BEGIN:VEVENT
 SUMMARY:[CCF-C] REFSQ 2027 투고 마감
 DTSTART;TZID="UTC-12:00":20261112T235959
 DTEND;TZID="UTC-12:00":20261113T000059
-DTSTAMP:20260814T075346Z
-UID:1a3bf126-9354-4836-9dc1-47594ac58322
+DTSTAMP:20260820T064109Z
+UID:e4cb920d-2307-4387-909e-0a27d0a12ce5
 DESCRIPTION:Requirements Engineering: Foundation for Software Quality\n
  🗓️ 会议时间: April 12-15\, 2027\n📍 会议地点: Basel\, Switz
  erland\n⏰ 原始截止时间 (AoE): 2026-11-12 23:59:59\n分类: 软件
@@ -1484,8 +1484,8 @@ BEGIN:VEVENT
 SUMMARY:[CCF-A] S&P 2027 투고 마감 [Second Paper submission deadline]
 DTSTART;TZID="UTC-12:00":20261117T235959
 DTEND;TZID="UTC-12:00":20261118T000059
-DTSTAMP:20260814T075353Z
-UID:d6bb8997-b468-4bb6-a396-cee25b8f1b9d
+DTSTAMP:20260820T064117Z
+UID:6f78767d-b4eb-4bdb-bb8b-b2fa38be5a8b
 DESCRIPTION:IEEE Symposium on Security and Privacy\n🗓️ 会议时间: 
  TBD\n📍 会议地点: MONTREAL\, CANADA\n⏰ 原始截止时间 (UTC-12)
  : 2026-11-17 23:59:59\n分类: 网络与信息安全 (SC)\nCCF A\, CORE A*
@@ -1508,8 +1508,8 @@ BEGIN:VEVENT
 SUMMARY:[CCF-B] WSDM 2027 투고 마감 [Short Paper]
 DTSTART;TZID="UTC-12:00":20261117T235959
 DTEND;TZID="UTC-12:00":20261118T000059
-DTSTAMP:20260814T075345Z
-UID:6fa88993-b8c2-4617-a7f1-ab0b36427b11
+DTSTAMP:20260820T064108Z
+UID:61b4bd56-71c7-4114-bde8-2e49b3eacd1e
 DESCRIPTION:International Conference on Web Search and Data Mining\n🗓
  ️ 会议时间: February 15 - 19\, 2027\n📍 会议地点: Cordis\, Hon
  g Kong SAR\, China\n⏰ 原始截止时间 (UTC-12): 2026-11-17 23:59:59\n
@@ -1533,8 +1533,8 @@ BEGIN:VEVENT
 SUMMARY:[CCF-B] DSN 2027 초록 마감
 DTSTART;TZID="UTC-12:00":20261125T235959
 DTEND;TZID="UTC-12:00":20261126T000059
-DTSTAMP:20260814T075352Z
-UID:161d2712-ffcc-4407-85ba-bda0b29a8b2a
+DTSTAMP:20260820T064115Z
+UID:4b79bd3b-cf4e-420f-ade8-e54fc7927ab4
 DESCRIPTION:International Conference on Dependable Systems and Networks\n
  🗓️ 会议时间: June 22-25\, 2027\n📍 会议地点: Berlin\, Germa
  ny\n⏰ 原始截止时间 (AoE): 2026-11-25 23:59:59\n分类: 网络与
@@ -1557,8 +1557,8 @@ BEGIN:VEVENT
 SUMMARY:[CCF-C] PETS 2027 투고 마감 [Issue 3 Paper Submission Deadline]
 DTSTART;TZID="UTC-12:00":20261130T235959
 DTEND;TZID="UTC-12:00":20261201T000059
-DTSTAMP:20260814T075352Z
-UID:326177dd-6566-45d1-9110-0cdceb898aa8
+DTSTAMP:20260820T064116Z
+UID:61eeaec5-b3ec-43d4-9929-8cbb1d3d8f6f
 DESCRIPTION:Privacy Enhancing Technologies Symposium\n🗓️ 会议时间
  : July 19-24\, 2027\n📍 会议地点: Delft\, The Netherlands\n⏰ 原
  始截止时间 (AoE): 2026-11-30 23:59:59\n分类: 网络与信息安全 
@@ -1581,8 +1581,8 @@ BEGIN:VEVENT
 SUMMARY:[CCF-B] SECON 2027 투고 마감
 DTSTART;TZID="UTC-05:00":20261130T235959
 DTEND;TZID="UTC-05:00":20261201T000059
-DTSTAMP:20260814T075350Z
-UID:07c03b37-993d-42b2-a7b9-f314fd1d6c6a
+DTSTAMP:20260820T064114Z
+UID:d238b76b-e333-451d-9594-10dd58596404
 DESCRIPTION:IEEE International Conference on Sensing\, Communication\, and
   Networking\n🗓️ 会议时间: May 5-7\, 2027\n📍 会议地点: Lisb
  on\, Portugal\n⏰ 原始截止时间 (UTC-5): 2026-11-30 23:59:59\n分类
@@ -1605,8 +1605,8 @@ BEGIN:VEVENT
 SUMMARY:[CCF-A] OSDI 2027 초록 마감
 DTSTART:20261201T225959Z
 DTEND:20261201T230059Z
-DTSTAMP:20260814T075345Z
-UID:49e523a4-1086-4477-b212-e4cc94b54b01
+DTSTAMP:20260820T064109Z
+UID:3d9944f7-e499-40b5-97cb-00dafc60f1de
 DESCRIPTION:USENIX Symposium on Operating Systems Design and Implementatio
  n\n🗓️ 会议时间: July 7-9\, 2027\n📍 会议地点: Baltimore\, M
  D\, USA\n⏰ 原始截止时间 (UTC): 2026-12-01 22:59:59\n分类: 软件
@@ -1630,8 +1630,8 @@ BEGIN:VEVENT
 SUMMARY:[CCF-B] DSN 2027 투고 마감
 DTSTART;TZID="UTC-12:00":20261202T235959
 DTEND;TZID="UTC-12:00":20261203T000059
-DTSTAMP:20260814T075352Z
-UID:4a807154-4ee0-4394-9700-501380c32eda
+DTSTAMP:20260820T064115Z
+UID:db7b891c-f246-4af8-b5ae-a324fb014358
 DESCRIPTION:International Conference on Dependable Systems and Networks\n
  🗓️ 会议时间: June 22-25\, 2027\n📍 会议地点: Berlin\, Germa
  ny\n⏰ 原始截止时间 (AoE): 2026-12-02 23:59:59\n分类: 网络与
@@ -1654,8 +1654,8 @@ BEGIN:VEVENT
 SUMMARY:[CCF-A] OSDI 2027 투고 마감
 DTSTART:20261208T225959Z
 DTEND:20261208T230059Z
-DTSTAMP:20260814T075345Z
-UID:bb378a78-fb74-40a1-bf55-24237a79c843
+DTSTAMP:20260820T064109Z
+UID:b28e3a8d-360e-409c-aaa4-da4ecd49f4e6
 DESCRIPTION:USENIX Symposium on Operating Systems Design and Implementatio
  n\n🗓️ 会议时间: July 7-9\, 2027\n📍 会议地点: Baltimore\, M
  D\, USA\n⏰ 原始截止时间 (UTC): 2026-12-08 22:59:59\n分类: 软件
@@ -1679,8 +1679,8 @@ BEGIN:VEVENT
 SUMMARY:[CCF-C] AsiaCCS 2027 투고 마감 [2nd round Deadline]
 DTSTART;TZID="UTC-12:00":20261211T235959
 DTEND;TZID="UTC-12:00":20261212T000059
-DTSTAMP:20260814T075351Z
-UID:b5e4abcb-dd74-4596-b780-d68494283b4a
+DTSTAMP:20260820T064115Z
+UID:bd0e7c39-c03a-4fdd-ba7c-45f12204d4a2
 DESCRIPTION:Asia Conference on Computer and Communications Security\n🗓
  ️ 会议时间: July 12-16\, 2027\n📍 会议地点: Macau\, China\n⏰
   原始截止时间 (AoE): 2026-12-11 23:59:59\n分类: 网络与信息安
@@ -1703,8 +1703,8 @@ BEGIN:VEVENT
 SUMMARY:[CCF-B] CHES 2027 투고 마감 [Schedule for TCHES Volume 2027/3]
 DTSTART;TZID="UTC-12:00":20270115T235959
 DTEND;TZID="UTC-12:00":20270116T000059
-DTSTAMP:20260814T075351Z
-UID:eeeb4713-bf93-46a0-87ac-85072c424fe6
+DTSTAMP:20260820T064115Z
+UID:574d8942-803f-474f-9280-28becf42f6bd
 DESCRIPTION:International Conference on Cryptographic Hardware and Embedde
  d Systems\n🗓️ 会议时间: September 6 - 9\, 2027\n📍 会议地点
  : Cancún\, Mexico\n⏰ 原始截止时间 (AoE): 2027-01-15 23:59:59\n分
@@ -1727,13 +1727,13 @@ BEGIN:VEVENT
 SUMMARY:[CCF-A] USENIX Security 2027 초록 마감 [Cycle 2 Deadline]
 DTSTART;TZID="UTC-12:00":20270119T235959
 DTEND;TZID="UTC-12:00":20270120T000059
-DTSTAMP:20260814T075353Z
-UID:13fb55dc-0f0d-4cd9-a0f6-c1d38358cbe5
-DESCRIPTION:USENIX Security Symposium\n🗓️ 会议时间: August 11-13\
- , 2027\n📍 会议地点: Denver\, CO\, USA\n⏰ 原始截止时间 (UTC-
- 12): 2027-01-19 23:59:59\n分类: 网络与信息安全 (SC)\nCCF A\, CORE
-  A*\, THCPL A\n会议官网: https://www.usenix.org/conference/usenixsecur
- ity27\nDBLP索引: https://dblp.org/db/conf/uss
+DTSTAMP:20260820T064117Z
+UID:4cb2ddac-1682-431e-bff1-feafe111ca1b
+DESCRIPTION:USENIX Security Symposium\n🗓️ 会议时间: August 11-13
+ \, 2027\n📍 会议地点: Denver\, CO\, USA\n⏰ 原始截止时间 (UTC
+ -12): 2027-01-19 23:59:59\n分类: 网络与信息安全 (SC)\nCCF A\, COR
+ E A*\, THCPL A\n会议官网: https://www.usenix.org/conference/usenixsecu
+ rity27\nDBLP索引: https://dblp.org/db/conf/uss
 LOCATION:Denver\, CO\, USA
 URL:https://www.usenix.org/conference/usenixsecurity27
 BEGIN:VALARM
@@ -1751,8 +1751,8 @@ BEGIN:VEVENT
 SUMMARY:[CCF-C] ACNS 2027 투고 마감 [Cycle 2 Submission deadline]
 DTSTART;TZID="UTC-12:00":20270121T235959
 DTEND;TZID="UTC-12:00":20270122T000059
-DTSTAMP:20260814T075351Z
-UID:e791d375-119b-4065-803a-5f794ed8eca6
+DTSTAMP:20260820T064115Z
+UID:64d19c80-90d3-4558-afdd-ecded7f92438
 DESCRIPTION:Applied Cryptography and Network Security\n🗓️ 会议时
  间: June 28 - July 1\, 2027\n📍 会议地点: Royal Holloway\, Egham\, 
  UK\n⏰ 原始截止时间 (AoE): 2027-01-21 23:59:59\n分类: 网络与
@@ -1775,13 +1775,13 @@ BEGIN:VEVENT
 SUMMARY:[CCF-A] USENIX Security 2027 투고 마감 [Cycle 2 Deadline]
 DTSTART;TZID="UTC-12:00":20270126T235959
 DTEND;TZID="UTC-12:00":20270127T000059
-DTSTAMP:20260814T075353Z
-UID:9a1d5ab3-b382-4a29-8ff4-e9628f664579
-DESCRIPTION:USENIX Security Symposium\n🗓️ 会议时间: August 11-13\
- , 2027\n📍 会议地点: Denver\, CO\, USA\n⏰ 原始截止时间 (UTC-
- 12): 2027-01-26 23:59:59\n分类: 网络与信息安全 (SC)\nCCF A\, CORE
-  A*\, THCPL A\n会议官网: https://www.usenix.org/conference/usenixsecur
- ity27\nDBLP索引: https://dblp.org/db/conf/uss
+DTSTAMP:20260820T064117Z
+UID:0727a9e8-7b46-4bc5-9ae1-d33e5460e309
+DESCRIPTION:USENIX Security Symposium\n🗓️ 会议时间: August 11-13
+ \, 2027\n📍 会议地点: Denver\, CO\, USA\n⏰ 原始截止时间 (UTC
+ -12): 2027-01-26 23:59:59\n分类: 网络与信息安全 (SC)\nCCF A\, COR
+ E A*\, THCPL A\n会议官网: https://www.usenix.org/conference/usenixsecu
+ rity27\nDBLP索引: https://dblp.org/db/conf/uss
 LOCATION:Denver\, CO\, USA
 URL:https://www.usenix.org/conference/usenixsecurity27
 BEGIN:VALARM
@@ -1799,8 +1799,8 @@ BEGIN:VEVENT
 SUMMARY:[CCF-B] CSFW 2027 투고 마감 [Winter]
 DTSTART;TZID="UTC-12:00":20270128T235959
 DTEND;TZID="UTC-12:00":20270129T000059
-DTSTAMP:20260814T075351Z
-UID:9834e79e-23f1-4137-a4eb-fb96b3985365
+DTSTAMP:20260820T064115Z
+UID:f39dd3df-4fe2-417f-9bc3-5b8a85e1af07
 DESCRIPTION:IEEE Computer Security Foundations Symposium\n🗓️ 会议
  时间: TBA\n📍 会议地点: Tokyo\, Japan\n⏰ 原始截止时间 (UTC
  -12): 2027-01-28 23:59:59\n分类: 网络与信息安全 (SC)\nCCF B\, COR
@@ -1823,8 +1823,8 @@ BEGIN:VEVENT
 SUMMARY:[CCF-C] IJCNN 2027 투고 마감
 DTSTART;TZID="UTC-12:00":20270131T235959
 DTEND;TZID="UTC-12:00":20270201T000059
-DTSTAMP:20260814T075328Z
-UID:9c6e3930-df53-4bb0-a79d-ceb554ab2e74
+DTSTAMP:20260820T064050Z
+UID:af64672f-3a6b-4717-a17c-e6552bbc0684
 DESCRIPTION:International Joint Conference on Neural Networks\n🗓️ 会
  议时间: June 14 - 18\, 2027\n📍 会议地点: Cape Town\, South Afric
  a\n⏰ 原始截止时间 (UTC-12): 2027-01-31 23:59:59\n分类: 人工智
@@ -1847,8 +1847,8 @@ BEGIN:VEVENT
 SUMMARY:[CCF-B] ICMR 2027 투고 마감
 DTSTART;TZID="UTC-12:00":20270131T235959
 DTEND;TZID="UTC-12:00":20270201T000059
-DTSTAMP:20260814T075341Z
-UID:e7832e71-7d86-4e91-b786-3404a86b5b68
+DTSTAMP:20260820T064104Z
+UID:ace1b8c3-9bae-40a2-a034-e0d30c1efd29
 DESCRIPTION:ACM SIGMM International Conference on Multimedia Retrieval\n
  🗓️ 会议时间: June 7-10\, 2027\n📍 会议地点: Singapore\n⏰ 
  原始截止时间 (UTC-12): 2027-01-31 23:59:59\n分类: 计算机图形
@@ -1871,8 +1871,8 @@ BEGIN:VEVENT
 SUMMARY:[CCF-C] PETS 2027 투고 마감 [Issue 4 Paper Submission Deadline]
 DTSTART;TZID="UTC-12:00":20270228T235959
 DTEND;TZID="UTC-12:00":20270301T000059
-DTSTAMP:20260814T075352Z
-UID:410e221a-febe-4810-915c-1b76570ef16b
+DTSTAMP:20260820T064116Z
+UID:55c6a4f0-5ef2-43f6-bf7b-4e17ff539475
 DESCRIPTION:Privacy Enhancing Technologies Symposium\n🗓️ 会议时间
  : July 19-24\, 2027\n📍 会议地点: Delft\, The Netherlands\n⏰ 原
  始截止时间 (AoE): 2027-02-28 23:59:59\n分类: 网络与信息安全 
@@ -1895,8 +1895,8 @@ BEGIN:VEVENT
 SUMMARY:[CCF-B] CHES 2027 투고 마감 [Schedule for TCHES Volume 2027/4]
 DTSTART;TZID="UTC-12:00":20270415T235959
 DTEND;TZID="UTC-12:00":20270416T000059
-DTSTAMP:20260814T075351Z
-UID:96fe183f-262b-4311-99b1-f8131692fc65
+DTSTAMP:20260820T064115Z
+UID:fd68299f-1070-456c-aa56-811434268528
 DESCRIPTION:International Conference on Cryptographic Hardware and Embedde
  d Systems\n🗓️ 会议时间: September 6 - 9\, 2027\n📍 会议地点
  : Cancún\, Mexico\n⏰ 原始截止时间 (AoE): 2027-04-15 23:59:59\n分

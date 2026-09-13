@@ -9,56 +9,6 @@ X-WR-TIMEZONE:Asia/Seoul
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-SUMMARY:[CCF-C] ADMA 2026 투고 마감 [Poster Paper]
-DTSTART;TZID="UTC-12:00":20260911T235959
-DTEND;TZID="UTC-12:00":20260912T000059
-DTSTAMP:20260912T141304Z
-UID:6fd6c2ba-6893-492a-9fe2-43ef626dcfd4
-DESCRIPTION:The International Conference on Advanced Data Mining and Appli
- cations\n🗓️ 会议时间: November 13 - 15\, 2026\n📍 会议地点:
-  Hong Kong\, China\n⏰ 原始截止时间 (AoE): 2026-09-11 23:59:59\n分
- 类: 数据库/数据挖掘/内容检索 (DB)\nCCF C\, CORE C\n会议官
- 网: https://adma2026.github.io/\nDBLP索引: https://dblp.org/db/conf/adm
- a
-LOCATION:Hong Kong\, China
-URL:https://adma2026.github.io/
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:마감 D-7
-TRIGGER:-P7D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:마감 D-1
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[CCF-C] ADMA 2026 투고 마감 [Encore Paper]
-DTSTART;TZID="UTC-12:00":20260911T235959
-DTEND;TZID="UTC-12:00":20260912T000059
-DTSTAMP:20260912T141304Z
-UID:ecd7f28f-c412-4f83-91a3-f2cf4f35e84c
-DESCRIPTION:The International Conference on Advanced Data Mining and Appli
- cations\n🗓️ 会议时间: November 13 - 15\, 2026\n📍 会议地点:
-  Hong Kong\, China\n⏰ 原始截止时间 (AoE): 2026-09-11 23:59:59\n分
- 类: 数据库/数据挖掘/内容检索 (DB)\nCCF C\, CORE C\n会议官
- 网: https://adma2026.github.io/\nDBLP索引: https://dblp.org/db/conf/adm
- a
-LOCATION:Hong Kong\, China
-URL:https://adma2026.github.io/
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:마감 D-7
-TRIGGER:-P7D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:마감 D-1
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:[CCF-C] WCNC 2027 투고 마감
 DTSTART;TZID="UTC-12:00":20260915T235959
 DTEND;TZID="UTC-12:00":20260916T000059

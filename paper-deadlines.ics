@@ -9,54 +9,6 @@ X-WR-TIMEZONE:Asia/Seoul
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-SUMMARY:[CCF-C] DFRWS 2027 초록 마감
-DTSTART;TZID="UTC-12:00":20260918T235959
-DTEND;TZID="UTC-12:00":20260919T000059
-DTSTAMP:20260919T092423Z
-UID:7aee0058-5012-4eaa-a23f-f097b42317df
-DESCRIPTION:Digital Forensic Research Workshop\n🗓️ 会议时间: Marc
- h 30 - April 2\, 2027\n📍 会议地点: Edinburgh\, Scotland\n⏰ 原始
- 截止时间 (AoE): 2026-09-18 23:59:59\n分类: 网络与信息安全 (SC
- )\nCCF C\n会议官网: https://dfrws.org/conferences/dfceurope2027/\nDBLP
- 索引: https://dblp.org/db/conf/dfrws
-LOCATION:Edinburgh\, Scotland
-URL:https://dfrws.org/conferences/dfceurope2027/
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:마감 D-7
-TRIGGER:-P7D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:마감 D-1
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[CCF-A] ICLR 2027 초록 마감
-DTSTART;TZID="UTC-12:00":20260918T235959
-DTEND;TZID="UTC-12:00":20260919T000059
-DTSTAMP:20260919T092357Z
-UID:01a01750-ad3f-42b2-834c-54b05e3b8c4a
-DESCRIPTION:International Conference on Learning Representations\n🗓️ 
- 会议时间: April 26-30\, 2027\n📍 会议地点: San Francisco\, CA\, 
- USA\n⏰ 原始截止时间 (AoE): 2026-09-18 23:59:59\n分类: 人工智
- 能 (AI)\nCCF A\, CORE A*\, THCPL A\n会议官网: https://iclr.cc/Confere
- nces/2027\nDBLP索引: https://dblp.org/db/conf/iclr
-LOCATION:San Francisco\, CA\, USA
-URL:https://iclr.cc/Conferences/2027
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:마감 D-7
-TRIGGER:-P7D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:마감 D-1
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:[CCF-B] SANER 2027 초록 마감 [Research Track Paper submission d
  eadline]
 DTSTART;TZID="UTC-12:00":20260921T235959

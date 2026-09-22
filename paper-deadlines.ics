@@ -9,32 +9,6 @@ X-WR-TIMEZONE:Asia/Seoul
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-SUMMARY:[CCF-B] SANER 2027 초록 마감 [Research Track Paper submission d
- eadline]
-DTSTART;TZID="UTC-12:00":20260921T235959
-DTEND;TZID="UTC-12:00":20260922T000059
-DTSTAMP:20260921T093010Z
-UID:6158ca42-a187-4233-ba6d-ce2507c71d8e
-DESCRIPTION:IEEE International Conference on Software Analysis\, Evolution
-  and Reengineering\n🗓️ 会议时间: March 9-12\, 2027\n📍 会议
- 地点: Richmond\, Virginia\, United States\n⏰ 原始截止时间 (AoE):
-  2026-09-21 23:59:59\n分类: 软件工程/系统软件/程序设计语言
-  (SE)\nCCF B\, CORE A\, THCPL B\n会议官网: https://conf.researchr.org/
- home/saner-2027\nDBLP索引: https://dblp.org/db/conf/wcre
-LOCATION:Richmond\, Virginia\, United States
-URL:https://conf.researchr.org/home/saner-2027
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:마감 D-7
-TRIGGER:-P7D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:마감 D-1
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:[CCF-B] ICASSP 2027 투고 마감
 DTSTART;TZID="UTC-12:00":20260923T235959
 DTEND;TZID="UTC-12:00":20260924T000059

@@ -9,59 +9,6 @@ X-WR-TIMEZONE:Asia/Seoul
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-SUMMARY:[CCF-B] VMCAI 2027 Final Decisions [Paper Submission]
-DTSTART;TZID="UTC-12:00":20261106T235959
-DTEND;TZID="UTC-12:00":20261107T000059
-DTSTAMP:20261106T170319Z
-UID:f129e12f-395f-57a3-a6f2-d973f41bafbd
-DESCRIPTION:International Conference on Verification\, Model Checking\, an
- d Abstract Interpretation\n🗓️ 会议时间: January 11-12\, 2027\n
- 📍 会议地点: Mexico City\, Mexico\n⏰ 原始截止时间 (AoE): 202
- 6-11-06 23:59:59\n分类: 软件工程/系统软件/程序设计语言 (SE
- )\nCCF B\, CORE B\, THCPL B\n会议官网: https://conf.researchr.org/home
- /VMCAI-2027\nDBLP索引: https://dblp.org/db/conf/vmcai
-LOCATION:Mexico City\, Mexico
-URL:https://conf.researchr.org/home/VMCAI-2027
-X-CCFDDL-CONFERENCE:VMCAI 2027
-X-CCFDDL-ID:vmcai27
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:마감 D-7
-TRIGGER:-P7D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:마감 D-1
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[CCF-A] MobiCom 2027 Rebuttal Submission [Summer Deadlines]
-DTSTART;TZID="UTC-12:00":20261106T235959
-DTEND;TZID="UTC-12:00":20261107T000059
-DTSTAMP:20261106T170314Z
-UID:133c613e-7df9-5f06-a92a-f83ebd5cb8f1
-DESCRIPTION:ACM Annual International Conference On Mobile Computing And Ne
- tworking\n🗓️ 会议时间: Oct 18-22\, 2027\n📍 会议地点: TBD\n
- ⏰ 原始截止时间 (AoE): 2026-11-06 23:59:59\n分类: 计算机网络
-  (NW)\nCCF A\, CORE A*\, THCPL A\n会议官网: https://www.sigmobile.org/
- mobicom/2027/\nDBLP索引: https://dblp.org/db/conf/mobicom
-LOCATION:TBD
-URL:https://www.sigmobile.org/mobicom/2027/
-X-CCFDDL-CONFERENCE:MobiCom 2027
-X-CCFDDL-ID:mobicom27
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:마감 D-7
-TRIGGER:-P7D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:마감 D-1
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:[CCF-B] ICDT 2027 Rebuttal Submission
 DTSTART;TZID="UTC-12:00":20261107T235959
 DTEND;TZID="UTC-12:00":20261108T000059

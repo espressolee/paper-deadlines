@@ -9,59 +9,6 @@ X-WR-TIMEZONE:Asia/Seoul
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-SUMMARY:[CCF-C] ACNS 2027 Final Decisions [Cycle 1 Submission deadline]
-DTSTART;TZID="UTC-12:00":20261126T235959
-DTEND;TZID="UTC-12:00":20261127T000059
-DTSTAMP:20261126T164747Z
-UID:837934c4-d514-57c2-b9a4-5a17814e45ff
-DESCRIPTION:Applied Cryptography and Network Security\n🗓️ 会议时
- 间: June 28 - July 1\, 2027\n📍 会议地点: Royal Holloway\, Egham\, 
- UK\n⏰ 原始截止时间 (AoE): 2026-11-26 23:59:59\n分类: 网络与
- 信息安全 (SC)\nCCF C\, CORE B\, THCPL B\n会议官网: https://acns202
- 7.isg.rhul.ac.uk/\nDBLP索引: https://dblp.org/db/conf/acns
-LOCATION:Royal Holloway\, Egham\, UK
-URL:https://acns2027.isg.rhul.ac.uk/
-X-CCFDDL-CONFERENCE:ACNS 2027
-X-CCFDDL-ID:acns27
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:마감 D-7
-TRIGGER:-P7D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:마감 D-1
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:ESANN 2027 Deadline
-DTSTART;TZID="UTC-08:00":20261126T035959
-DTEND;TZID="UTC-08:00":20261126T040059
-DTSTAMP:20261126T164658Z
-UID:09bee56b-34fd-59a6-a57e-89401018fe58
-DESCRIPTION:European Symposium on Artificial Neural Networks\, Computation
- al Intelligence and Machine Learning\n🗓️ 会议时间: April 21 - 23
- \, 2027\n📍 会议地点: Bruges\, Belgium and Online\n⏰ 原始截止
- 时间 (UTC-8): 2026-11-26 03:59:59\n分类: 人工智能 (AI)\nCORE B\n
- 会议官网: https://www.esann.org/\nDBLP索引: https://dblp.org/db/conf
- /esann
-LOCATION:Bruges\, Belgium and Online
-URL:https://www.esann.org/
-X-CCFDDL-CONFERENCE:ESANN 2027
-X-CCFDDL-ID:esann27
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:마감 D-7
-TRIGGER:-P7D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:마감 D-1
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:[CCF-B] Middleware 2027 Abstract Deadline [Winter cycle]
 DTSTART;TZID="UTC-12:00":20261127T235900
 DTEND;TZID="UTC-12:00":20261128T000000
